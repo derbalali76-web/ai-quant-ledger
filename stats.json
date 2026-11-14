@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "updated_at": "2026-11-14T12:36:26Z",
- "chain_head": "0000000000000000000000000000000000000000000000000000000000000000",
- "lines": 0,
+ "updated_at": "2026-11-14T18:16:24Z",
+ "chain_head": "ffc6f547f1425a71f02cbf4f991455b0bdbd77273df512a49e836192cc77b7ee",
+ "lines": 2,
  "tracking_since": null,
  "days_tracked": 0,
  "recommendations": {
@@ -30,5 +30,127 @@
   "accuracy": null,
   "baseline_accuracy": null
  },
- "recent": []
+ "recent": [],
+ "assets": {
+  "XAU": {
+   "tracking_since": null,
+   "days_tracked": 0,
+   "recommendations": {
+    "completed": 0,
+    "wins": 0,
+    "losses": 0,
+    "targets": 0,
+    "stops": 0,
+    "timeouts": 0,
+    "not_filled": 0,
+    "win_rate": null,
+    "avg_r": null,
+    "total_r": null,
+    "max_drawdown_r": null,
+    "baseline_avg_r": null,
+    "published": 0,
+    "open": 0
+   },
+   "by_horizon": {},
+   "by_model": {},
+   "analysis": {
+    "days": 0,
+    "scored": 0,
+    "correct": 0,
+    "accuracy": null,
+    "baseline_accuracy": null
+   },
+   "recent": []
+  },
+  "BTC": {
+   "tracking_since": "2026-11-14T18:16:24Z",
+   "days_tracked": 0,
+   "recommendations": {
+    "completed": 0,
+    "wins": 0,
+    "losses": 0,
+    "targets": 0,
+    "stops": 0,
+    "timeouts": 0,
+    "not_filled": 0,
+    "win_rate": null,
+    "avg_r": null,
+    "total_r": null,
+    "max_drawdown_r": null,
+    "baseline_avg_r": null,
+    "published": 0,
+    "open": 0
+   },
+   "by_horizon": {},
+   "by_model": {},
+   "analysis": {
+    "days": 1,
+    "scored": 0,
+    "correct": 0,
+    "accuracy": null,
+    "baseline_accuracy": null
+   },
+   "recent": []
+  },
+  "ETH": {
+   "tracking_since": null,
+   "days_tracked": 0,
+   "recommendations": {
+    "completed": 0,
+    "wins": 0,
+    "losses": 0,
+    "targets": 0,
+    "stops": 0,
+    "timeouts": 0,
+    "not_filled": 0,
+    "win_rate": null,
+    "avg_r": null,
+    "total_r": null,
+    "max_drawdown_r": null,
+    "baseline_avg_r": null,
+    "published": 0,
+    "open": 0
+   },
+   "by_horizon": {},
+   "by_model": {},
+   "analysis": {
+    "days": 0,
+    "scored": 0,
+    "correct": 0,
+    "accuracy": null,
+    "baseline_accuracy": null
+   },
+   "recent": []
+  },
+  "SOL": {
+   "tracking_since": "2026-11-14T18:16:24Z",
+   "days_tracked": 0,
+   "recommendations": {
+    "completed": 0,
+    "wins": 0,
+    "losses": 0,
+    "targets": 0,
+    "stops": 0,
+    "timeouts": 0,
+    "not_filled": 0,
+    "win_rate": null,
+    "avg_r": null,
+    "total_r": null,
+    "max_drawdown_r": null,
+    "baseline_avg_r": null,
+    "published": 0,
+    "open": 0
+   },
+   "by_horizon": {},
+   "by_model": {},
+   "analysis": {
+    "days": 1,
+    "scored": 0,
+    "correct": 0,
+    "accuracy": null,
+    "baseline_accuracy": null
+   },
+   "recent": []
+  }
+ }
 }
