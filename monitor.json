@@ -1,32 +1,29 @@
 {
- "checked_at": "2026-11-15T02:44:45+00:00",
+ "checked_at": "2026-11-15T11:04:13+00:00",
  "assets": {
   "XAU": {
    "ok": true,
    "problems": [],
-   "as_of": "2026-11-15T02:42:30.408454+00:00",
+   "as_of": "2026-11-15T11:00:50.396775+00:00",
    "health": "OK"
   },
   "BTC": {
    "ok": true,
    "problems": [],
-   "as_of": "2026-11-15T02:44:05.480167+00:00",
-   "health": "WARN"
+   "as_of": "2026-11-15T11:02:07.163592+00:00",
+   "health": "OK"
   },
   "ETH": {
-   "ok": false,
-   "problems": [
-    "ETH: data-quality gate FAILED (decisions blocked)",
-    "ETH: analysis unavailable"
-   ],
-   "as_of": "2026-11-15T02:44:21.562976+00:00",
-   "health": "FAIL"
+   "ok": true,
+   "problems": [],
+   "as_of": "2026-11-15T11:02:23.929250+00:00",
+   "health": "OK"
   },
   "SOL": {
    "ok": true,
    "problems": [],
-   "as_of": "2026-11-15T02:44:27.154545+00:00",
-   "health": "WARN"
+   "as_of": "2026-11-15T11:03:55.650457+00:00",
+   "health": "OK"
   }
  }
 }
