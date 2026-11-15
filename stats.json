@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "updated_at": "2026-11-14T22:33:02Z",
- "chain_head": "ffc6f547f1425a71f02cbf4f991455b0bdbd77273df512a49e836192cc77b7ee",
- "lines": 2,
+ "updated_at": "2026-11-15T02:44:45Z",
+ "chain_head": "5cbe137d8c9eb10f17377f17b8a1c983c7ae6b9e087f6d1c62e148581331540f",
+ "lines": 12,
  "tracking_since": null,
  "days_tracked": 0,
  "recommendations": {
@@ -89,11 +89,11 @@
    "by_horizon": {},
    "by_model": {},
    "analysis": {
-    "days": 1,
-    "scored": 0,
-    "correct": 0,
-    "accuracy": null,
-    "baseline_accuracy": null
+    "days": 2,
+    "scored": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "baseline_accuracy": 0.0
    },
    "recent": []
   },
@@ -149,11 +149,11 @@
    "by_horizon": {},
    "by_model": {},
    "analysis": {
-    "days": 1,
-    "scored": 0,
-    "correct": 0,
-    "accuracy": null,
-    "baseline_accuracy": null
+    "days": 2,
+    "scored": 1,
+    "correct": 1,
+    "accuracy": 1.0,
+    "baseline_accuracy": 0.0
    },
    "recent": []
   }
