@@ -10,6 +10,13 @@ gold (XAU/USD) and crypto (BTC, ETH, SOL — each with its own record in `stats.
 - When the price later reaches the stop, the target or the time limit, a `RESULT` / `BRIEF_RESULT` line is appended.
 - Lines are never edited or deleted. Each line contains the SHA-256 of the previous line, so changing any old line
   breaks every hash after it. Each line also sits in a git commit whose time GitHub records independently.
+- **What the chain does not do by itself:** whoever controls this repository could rewrite the whole file and every
+  hash after it. So once a day the current head hash is written to `anchors/YYYY-MM-DD.txt` and timestamped with
+  [OpenTimestamps](https://opentimestamps.org) (anchored in the Bitcoin blockchain, outside GitHub). A rewritten
+  history would no longer match an anchor that already exists. Check an anchor: `pip install opentimestamps-client`
+  then `ots verify anchors/YYYY-MM-DD.txt.ots` (proofs become verifiable a few hours after stamping).
+- Since 2026-11-15 (rule 2) a snapshot is recorded only if it is at most 20 minutes old (was 2 hours): the recorded
+  price must be one that could still be traded at recording time. Older lines keep the rule they were written under.
 
 ## Check it yourself
 ```

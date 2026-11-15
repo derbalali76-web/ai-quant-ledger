@@ -38,6 +38,16 @@ jobs:
           elif [ -n "$open" ]; then
             gh issue close "$open" --comment "All checks healthy again at $(date -u +%F\ %H:%M) UTC."
           fi
+      - name: daily external anchor (OpenTimestamps -> Bitcoin; best effort, never blocks the record)
+        run: |
+          d=$(date -u +%F); mkdir -p anchors
+          if [ ! -f "anchors/$d.txt" ]; then
+            printf '%s  ledger.jsonl head at %s (lines: %s)\n' "$(tail -n1 ledger.jsonl | python3 -c 'import json,sys;print(json.loads(sys.stdin.read())["hash"])')" \
+              "$(date -u +%FT%TZ)" "$(wc -l < ledger.jsonl)" > "anchors/$d.txt"
+          fi
+          pip install -q opentimestamps-client || exit 0
+          [ -f "anchors/$d.txt.ots" ] || timeout 120 ots stamp "anchors/$d.txt" || rm -f "anchors/$d.txt.ots"
+          for f in anchors/*.ots; do [ -f "$f" ] && timeout 60 ots upgrade "$f" >/dev/null 2>&1 || true; done
       - name: commit
         run: |
           rm -f snapshot.json snap_*.json
