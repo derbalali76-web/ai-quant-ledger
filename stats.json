@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-16T17:20:24Z",
+ "updated_at": "2026-11-16T19:01:12Z",
  "chain_head": "2b06e290d265acec89ee2e4e1d9a8ea60463384ebcb1fcf1a826d13e585dde23",
  "lines": 41,
  "tracking_since": "2026-11-16T02:48:38Z",
@@ -486,6 +486,8 @@
    "baseline_up_correct": false
   }
  ],
+ "ranges": {},
+ "hilo": {},
  "assets": {
   "XAU": {
    "tracking_since": "2026-11-16T02:48:38Z",
@@ -519,7 +521,7 @@
   },
   "BTC": {
    "tracking_since": "2026-11-14T18:16:24Z",
-   "days_tracked": 1,
+   "days_tracked": 2,
    "recommendations": {
     "completed": 0,
     "wins": 0,
@@ -579,7 +581,7 @@
   },
   "SOL": {
    "tracking_since": "2026-11-14T18:16:24Z",
-   "days_tracked": 1,
+   "days_tracked": 2,
    "recommendations": {
     "completed": 0,
     "wins": 0,
