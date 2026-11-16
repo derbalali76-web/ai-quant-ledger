@@ -12,6 +12,11 @@ Same inputs and formulas as the app server (backend goldquant/price_range.live a
   * high / low bounds = model (qd * s, qu * s), B1 (exported 365-day quantiles), B2 (+/- 1.645 * EWMA sigma * sqrt H).
 An equivalence test in the app repository (backend/tests/test_v27_issuer.py) checks this file against the server code.
 
+Issue times: every 4 h on the hour (00/04/.../20 UTC; the 1-day and 1-week times are among them). A run computes the
+latest issue time whose 75-minute recording window is still open, from the bars closed AT that time — so if the run
+of that hour was missed, the next one records exactly what an on-time run would have (deterministic: no choice is
+involved, and parameters published after the issue time are never used for it).
+
 Standard library only (anyone can re-run it). Writes issue_<ASSET>.json, shaped like a server snapshot, which
 `ledger.py update` ingests FIRST (the server's snapshot is the backup; the first recorded issue wins). It carries
 closed bars, `ranges` and `hilo` — and "price": null, so it can never create a recommendation or a daily analysis:
@@ -39,6 +44,7 @@ LAMBDA = 0.94
 Z90, Z95 = 1.2816, 1.6449
 SOURCE = "ledger-action"
 HOUR = timedelta(hours=1)
+FRESH = timedelta(minutes=75)  # ledger.RANGE_FRESH: an issue is recorded only within this time of its issue time
 
 
 def get_json(url: str, tries: int = 3, timeout: float = 30.0):
@@ -130,11 +136,41 @@ def hilo_live(params: dict, bars: list) -> dict | None:
     return out
 
 
-def issue(asset: str, h1: list, d1: list, ranges: dict, hilo: dict, now: datetime) -> dict:
-    """Snapshot-shaped record for one asset (no price: never a recommendation or a daily analysis)."""
+def due_slot(h1: list, now: datetime) -> datetime | None:
+    """The latest issue time (every 4 h on the hour; the 1-day and 1-week times are among them) whose recording window
+    is still open. If the run for that hour was missed, the next run can still record it — from the bars closed AT
+    that time only, so it is exactly what an on-time run would have computed."""
+    if not h1:
+        return None
+    last = h1[-1][0] + HOUR
+    t = last.replace(hour=last.hour - last.hour % 4, minute=0, second=0, microsecond=0)
+    return t if timedelta(0) <= now - t <= FRESH else None
+
+
+def issue(asset: str, h1: list, d1: list, ranges: dict, hilo: dict, now: datetime,
+          published: dict | None = None) -> dict:
+    """Snapshot-shaped record for one asset (no price: never a recommendation or a daily analysis).
+    `published`: when each parameter file was exported; a late computation never uses parameters newer than its issue
+    time (they could contain information from after it)."""
     rows = lambda bs: [[iso(b[0]), *(round(v, 4) for v in b[1:])] for b in bs]  # noqa: E731
     out = {"schema": 1, "asset": asset, "symbol": SYMBOLS[asset], "as_of": iso(now), "price": None,
            "source": SOURCE, "bars": {"H1": rows(h1[-120:]), "D1": rows(d1[-45:])}, "ranges": [], "hilo": []}
+    slot = due_slot(h1, now)
+    if slot is None:
+        return out
+    upto = [b for b in h1 if b[0] + HOUR <= slot]
+    late = upto[-1][0] + HOUR < h1[-1][0] + HOUR if upto else True
+    pub = published or {}
+
+    def allowed(name: str) -> bool:
+        p = pub.get(name)
+        return not late or (p is not None and datetime.fromisoformat(p.replace("Z", "+00:00")) <= slot)
+
+    if not upto or not allowed("range"):
+        ranges = {}
+    if not upto or not allowed("hilo"):
+        hilo = {}
+    h1 = upto
     for h, x in (ranges.get(asset) or {}).items():
         r = range_live(x["params"], h1) if x.get("params") else None
         if r is not None:
@@ -150,13 +186,15 @@ def issue(asset: str, h1: list, d1: list, ranges: dict, hilo: dict, now: datetim
 def main(argv: list[str]) -> int:
     out_dir = Path(argv[0] if argv else ".")
     out_dir.mkdir(parents=True, exist_ok=True)
-    ranges, hilo, problems = {}, {}, []
+    ranges, hilo, problems, published = {}, {}, [], {}
     try:
-        ranges = get_json(MODELS + "range_models.json").get("assets", {})
+        m = get_json(MODELS + "range_models.json")
+        ranges, published["range"] = m.get("assets", {}), m.get("updated_at")
     except Exception as exc:  # noqa: BLE001
         problems.append(f"range models: {exc}")
     try:
-        hilo = get_json(MODELS + "hilo_models.json").get("assets", {})
+        m = get_json(MODELS + "hilo_models.json")
+        hilo, published["hilo"] = m.get("assets", {}), m.get("updated_at")
     except Exception as exc:  # noqa: BLE001
         problems.append(f"hilo models: {exc}")
     for asset, sym in SYMBOLS.items():
@@ -164,10 +202,11 @@ def main(argv: list[str]) -> int:
             now = datetime.now(timezone.utc)
             h1 = closed_bars(get_json(f"{KLINES}?symbol={sym}&interval=1h&limit=1000"), HOUR, now)
             d1 = closed_bars(get_json(f"{KLINES}?symbol={sym}&interval=1d&limit=46"), timedelta(days=1), now)
-            snap = issue(asset, h1, d1, ranges, hilo, now)
+            snap = issue(asset, h1, d1, ranges, hilo, now, published)
             (out_dir / f"issue_{asset}.json").write_text(json.dumps(snap, separators=(",", ":")), encoding="utf-8")
-            print(f"{asset}: {len(h1)} hourly bars to {iso(h1[-1][0] + HOUR) if h1 else '-'}, "
-                  f"{len(snap['ranges'])} ranges, {len(snap['hilo'])} high/low")
+            slot = due_slot(h1, now)
+            print(f"{asset}: {len(h1)} hourly bars to {iso(h1[-1][0] + HOUR) if h1 else '-'}; issue time "
+                  f"{iso(slot) if slot else 'none due'}: {len(snap['ranges'])} ranges, {len(snap['hilo'])} high/low")
         except Exception as exc:  # noqa: BLE001 — the server snapshot is still tried afterwards
             problems.append(f"{asset}: {exc}")
     for p in problems:
