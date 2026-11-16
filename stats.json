@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-16T21:01:01Z",
+ "updated_at": "2026-11-16T22:00:40Z",
  "chain_head": "4b1f8388bdb4b2a499f82dc01d70da6735760bcd3f87837a245c07723ee85892",
  "lines": 49,
  "tracking_since": "2026-11-16T02:48:38Z",
@@ -566,9 +566,9 @@
   "since": "2026-11-16T20:00:00Z",
   "cases": {
    "HILO BTC 4h": {
-    "expected": 0,
-    "recorded": 0,
-    "rate": null,
+    "expected": 1,
+    "recorded": 1,
+    "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
      "ledger-action": 1
@@ -576,9 +576,9 @@
     "missed_last": []
    },
    "HILO BTC 24h": {
-    "expected": 0,
-    "recorded": 0,
-    "rate": null,
+    "expected": 1,
+    "recorded": 1,
+    "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
      "ledger-action": 1
@@ -586,9 +586,9 @@
     "missed_last": []
    },
    "HILO ETH 4h": {
-    "expected": 0,
-    "recorded": 0,
-    "rate": null,
+    "expected": 1,
+    "recorded": 1,
+    "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
      "ledger-action": 1
@@ -596,9 +596,9 @@
     "missed_last": []
    },
    "HILO ETH 24h": {
-    "expected": 0,
-    "recorded": 0,
-    "rate": null,
+    "expected": 1,
+    "recorded": 1,
+    "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
      "ledger-action": 1
@@ -606,9 +606,9 @@
     "missed_last": []
    },
    "RANGE XAU 4h": {
-    "expected": 0,
-    "recorded": 0,
-    "rate": null,
+    "expected": 1,
+    "recorded": 1,
+    "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
      "server": 1
@@ -632,9 +632,9 @@
     "missed_last": []
    },
    "RANGE BTC 4h": {
-    "expected": 0,
-    "recorded": 0,
-    "rate": null,
+    "expected": 1,
+    "recorded": 1,
+    "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
      "ledger-action": 1
@@ -658,9 +658,9 @@
     "missed_last": []
    },
    "RANGE ETH 4h": {
-    "expected": 0,
-    "recorded": 0,
-    "rate": null,
+    "expected": 1,
+    "recorded": 1,
+    "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
      "ledger-action": 1
@@ -684,9 +684,9 @@
     "missed_last": []
    },
    "RANGE SOL 4h": {
-    "expected": 0,
-    "recorded": 0,
-    "rate": null,
+    "expected": 1,
+    "recorded": 1,
+    "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
      "ledger-action": 1
