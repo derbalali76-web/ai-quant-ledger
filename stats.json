@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-16T17:01:07Z",
+ "updated_at": "2026-11-16T17:20:24Z",
  "chain_head": "2b06e290d265acec89ee2e4e1d9a8ea60463384ebcb1fcf1a826d13e585dde23",
  "lines": 41,
  "tracking_since": "2026-11-16T02:48:38Z",
@@ -385,6 +385,107 @@
    }
   }
  },
+ "briefs": [
+  {
+   "seq": 28,
+   "asset": "SOL",
+   "date": "2026-11-16",
+   "bias": "DOWN",
+   "price": 72.24,
+   "recorded_at": "2026-11-16T02:48:38Z",
+   "outcome": "PENDING",
+   "close": null,
+   "baseline_up_correct": null
+  },
+  {
+   "seq": 23,
+   "asset": "ETH",
+   "date": "2026-11-16",
+   "bias": "DOWN",
+   "price": 1824.86,
+   "recorded_at": "2026-11-16T02:48:38Z",
+   "outcome": "PENDING",
+   "close": null,
+   "baseline_up_correct": null
+  },
+  {
+   "seq": 18,
+   "asset": "BTC",
+   "date": "2026-11-16",
+   "bias": "DOWN",
+   "price": 65149.82,
+   "recorded_at": "2026-11-16T02:48:38Z",
+   "outcome": "PENDING",
+   "close": null,
+   "baseline_up_correct": null
+  },
+  {
+   "seq": 17,
+   "asset": "XAU",
+   "date": "2026-11-16",
+   "bias": "UNKNOWN",
+   "price": 3880.32,
+   "recorded_at": "2026-11-16T02:48:38Z",
+   "outcome": "PENDING",
+   "close": null,
+   "baseline_up_correct": null
+  },
+  {
+   "seq": 13,
+   "asset": "ETH",
+   "date": "2026-11-15",
+   "bias": "DOWN",
+   "price": 1831.64,
+   "recorded_at": "2026-11-15T11:04:13Z",
+   "outcome": "WRONG",
+   "close": 1835.35,
+   "baseline_up_correct": true
+  },
+  {
+   "seq": 8,
+   "asset": "SOL",
+   "date": "2026-11-15",
+   "bias": "DOWN",
+   "price": 70.64,
+   "recorded_at": "2026-11-15T02:44:45Z",
+   "outcome": "WRONG",
+   "close": 72.77,
+   "baseline_up_correct": true
+  },
+  {
+   "seq": 3,
+   "asset": "BTC",
+   "date": "2026-11-15",
+   "bias": "DOWN",
+   "price": 64500.0,
+   "recorded_at": "2026-11-15T02:44:45Z",
+   "outcome": "WRONG",
+   "close": 65351.05,
+   "baseline_up_correct": true
+  },
+  {
+   "seq": 2,
+   "asset": "SOL",
+   "date": "2026-11-14",
+   "bias": "DOWN",
+   "price": 72.68,
+   "recorded_at": "2026-11-14T18:16:24Z",
+   "outcome": "CORRECT",
+   "close": 70.28,
+   "baseline_up_correct": false
+  },
+  {
+   "seq": 1,
+   "asset": "BTC",
+   "date": "2026-11-14",
+   "bias": "DOWN",
+   "price": 65887.23,
+   "recorded_at": "2026-11-14T18:16:24Z",
+   "outcome": "CORRECT",
+   "close": 64150.0,
+   "baseline_up_correct": false
+  }
+ ],
  "assets": {
   "XAU": {
    "tracking_since": "2026-11-16T02:48:38Z",
