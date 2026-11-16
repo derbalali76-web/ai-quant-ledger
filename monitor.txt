@@ -1,2 +1,0 @@
-ALERT ETH: server unreachable or no snapshot
-ALERT SOL: server unreachable or no snapshot

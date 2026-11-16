@@ -1,33 +1,29 @@
 {
- "checked_at": "2026-11-16T20:08:39+00:00",
+ "checked_at": "2026-11-16T21:01:02+00:00",
  "assets": {
   "XAU": {
    "ok": true,
    "problems": [],
-   "as_of": "2026-11-16T19:56:49.552983+00:00",
+   "as_of": "2026-11-16T20:59:32.326401+00:00",
    "health": "OK"
   },
   "BTC": {
    "ok": true,
    "problems": [],
-   "as_of": "2026-11-16T20:05:44.588211+00:00",
+   "as_of": "2026-11-16T21:00:19.112313+00:00",
    "health": "OK"
   },
   "ETH": {
-   "ok": false,
-   "problems": [
-    "ETH: server unreachable or no snapshot"
-   ],
-   "as_of": null,
-   "health": null
+   "ok": true,
+   "problems": [],
+   "as_of": "2026-11-16T21:00:33.003655+00:00",
+   "health": "WARN"
   },
   "SOL": {
-   "ok": false,
-   "problems": [
-    "SOL: server unreachable or no snapshot"
-   ],
-   "as_of": null,
-   "health": null
+   "ok": true,
+   "problems": [],
+   "as_of": "2026-11-16T21:00:48.505447+00:00",
+   "health": "WARN"
   }
  },
  "record": []
