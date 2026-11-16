@@ -1,9 +1,9 @@
 {
  "schema": 1,
- "updated_at": "2026-11-15T22:55:42Z",
- "chain_head": "4976759be86a457dc51b32534acae868edf1416173c7877f78ead15401ce36a3",
- "lines": 16,
- "tracking_since": null,
+ "updated_at": "2026-11-16T02:48:38Z",
+ "chain_head": "e7c249722b935649b3bc2a22cfb0342aa38bdc8b80aa984489f3d134b15e19e0",
+ "lines": 32,
+ "tracking_since": "2026-11-16T02:48:38Z",
  "days_tracked": 0,
  "recommendations": {
   "completed": 0,
@@ -24,7 +24,7 @@
  "by_horizon": {},
  "by_model": {},
  "analysis": {
-  "days": 0,
+  "days": 1,
   "scored": 0,
   "correct": 0,
   "accuracy": null,
@@ -38,7 +38,7 @@
  },
  "assets": {
   "XAU": {
-   "tracking_since": null,
+   "tracking_since": "2026-11-16T02:48:38Z",
    "days_tracked": 0,
    "recommendations": {
     "completed": 0,
@@ -59,7 +59,7 @@
    "by_horizon": {},
    "by_model": {},
    "analysis": {
-    "days": 0,
+    "days": 1,
     "scored": 0,
     "correct": 0,
     "accuracy": null,
@@ -89,11 +89,11 @@
    "by_horizon": {},
    "by_model": {},
    "analysis": {
-    "days": 2,
-    "scored": 1,
+    "days": 3,
+    "scored": 2,
     "correct": 1,
-    "accuracy": 1.0,
-    "baseline_accuracy": 0.0
+    "accuracy": 0.5,
+    "baseline_accuracy": 0.5
    },
    "recent": []
   },
@@ -119,11 +119,11 @@
    "by_horizon": {},
    "by_model": {},
    "analysis": {
-    "days": 1,
-    "scored": 0,
+    "days": 2,
+    "scored": 1,
     "correct": 0,
-    "accuracy": null,
-    "baseline_accuracy": null
+    "accuracy": 0.0,
+    "baseline_accuracy": 1.0
    },
    "recent": []
   },
@@ -149,11 +149,11 @@
    "by_horizon": {},
    "by_model": {},
    "analysis": {
-    "days": 2,
-    "scored": 1,
+    "days": 3,
+    "scored": 2,
     "correct": 1,
-    "accuracy": 1.0,
-    "baseline_accuracy": 0.0
+    "accuracy": 0.5,
+    "baseline_accuracy": 0.5
    },
    "recent": []
   }
