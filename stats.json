@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "updated_at": "2026-11-16T19:01:12Z",
- "chain_head": "2b06e290d265acec89ee2e4e1d9a8ea60463384ebcb1fcf1a826d13e585dde23",
- "lines": 41,
+ "updated_at": "2026-11-16T20:08:38Z",
+ "chain_head": "4b1f8388bdb4b2a499f82dc01d70da6735760bcd3f87837a245c07723ee85892",
+ "lines": 49,
  "tracking_since": "2026-11-16T02:48:38Z",
  "days_tracked": 0,
  "recommendations": {
@@ -486,8 +486,231 @@
    "baseline_up_correct": false
   }
  ],
- "ranges": {},
- "hilo": {},
+ "ranges": {
+  "BTC": {
+   "4h": {
+    "recorded": 1,
+    "settled": 0,
+    "inside": 0,
+    "last": {
+     "issued_at": "2026-11-16T20:00:00Z",
+     "low": 64155.76122834782,
+     "high": 65886.98254054016,
+     "outcome": "PENDING"
+    }
+   }
+  },
+  "ETH": {
+   "4h": {
+    "recorded": 1,
+    "settled": 0,
+    "inside": 0,
+    "last": {
+     "issued_at": "2026-11-16T20:00:00Z",
+     "low": 1793.6147738862874,
+     "high": 1852.5941911681332,
+     "outcome": "PENDING"
+    }
+   }
+  },
+  "SOL": {
+   "4h": {
+    "recorded": 1,
+    "settled": 0,
+    "inside": 0,
+    "last": {
+     "issued_at": "2026-11-16T20:00:00Z",
+     "low": 70.14943012377834,
+     "high": 72.83910841096422,
+     "outcome": "PENDING"
+    }
+   }
+  },
+  "XAU": {
+   "4h": {
+    "recorded": 1,
+    "settled": 0,
+    "inside": 0,
+    "last": {
+     "issued_at": "2026-11-16T20:00:00Z",
+     "low": 3843.0403353350644,
+     "high": 3885.1309945489447,
+     "outcome": "PENDING"
+    }
+   }
+  }
+ },
+ "hilo": {
+  "BTC": {
+   "4h": {
+    "recorded": 1,
+    "settled": 0
+   },
+   "24h": {
+    "recorded": 1,
+    "settled": 0
+   }
+  },
+  "ETH": {
+   "4h": {
+    "recorded": 1,
+    "settled": 0
+   },
+   "24h": {
+    "recorded": 1,
+    "settled": 0
+   }
+  }
+ },
+ "completeness": {
+  "since": "2026-11-16T20:00:00Z",
+  "cases": {
+   "HILO BTC 4h": {
+    "expected": 0,
+    "recorded": 0,
+    "rate": null,
+    "missed_24h": 0,
+    "by_source": {
+     "ledger-action": 1
+    },
+    "missed_last": []
+   },
+   "HILO BTC 24h": {
+    "expected": 0,
+    "recorded": 0,
+    "rate": null,
+    "missed_24h": 0,
+    "by_source": {
+     "ledger-action": 1
+    },
+    "missed_last": []
+   },
+   "HILO ETH 4h": {
+    "expected": 0,
+    "recorded": 0,
+    "rate": null,
+    "missed_24h": 0,
+    "by_source": {
+     "ledger-action": 1
+    },
+    "missed_last": []
+   },
+   "HILO ETH 24h": {
+    "expected": 0,
+    "recorded": 0,
+    "rate": null,
+    "missed_24h": 0,
+    "by_source": {
+     "ledger-action": 1
+    },
+    "missed_last": []
+   },
+   "RANGE XAU 4h": {
+    "expected": 0,
+    "recorded": 0,
+    "rate": null,
+    "missed_24h": 0,
+    "by_source": {
+     "server": 1
+    },
+    "missed_last": []
+   },
+   "RANGE XAU 24h": {
+    "expected": 0,
+    "recorded": 0,
+    "rate": null,
+    "missed_24h": 0,
+    "by_source": {},
+    "missed_last": []
+   },
+   "RANGE XAU 1w": {
+    "expected": 0,
+    "recorded": 0,
+    "rate": null,
+    "missed_24h": 0,
+    "by_source": {},
+    "missed_last": []
+   },
+   "RANGE BTC 4h": {
+    "expected": 0,
+    "recorded": 0,
+    "rate": null,
+    "missed_24h": 0,
+    "by_source": {
+     "ledger-action": 1
+    },
+    "missed_last": []
+   },
+   "RANGE BTC 24h": {
+    "expected": 0,
+    "recorded": 0,
+    "rate": null,
+    "missed_24h": 0,
+    "by_source": {},
+    "missed_last": []
+   },
+   "RANGE BTC 1w": {
+    "expected": 0,
+    "recorded": 0,
+    "rate": null,
+    "missed_24h": 0,
+    "by_source": {},
+    "missed_last": []
+   },
+   "RANGE ETH 4h": {
+    "expected": 0,
+    "recorded": 0,
+    "rate": null,
+    "missed_24h": 0,
+    "by_source": {
+     "ledger-action": 1
+    },
+    "missed_last": []
+   },
+   "RANGE ETH 24h": {
+    "expected": 0,
+    "recorded": 0,
+    "rate": null,
+    "missed_24h": 0,
+    "by_source": {},
+    "missed_last": []
+   },
+   "RANGE ETH 1w": {
+    "expected": 0,
+    "recorded": 0,
+    "rate": null,
+    "missed_24h": 0,
+    "by_source": {},
+    "missed_last": []
+   },
+   "RANGE SOL 4h": {
+    "expected": 0,
+    "recorded": 0,
+    "rate": null,
+    "missed_24h": 0,
+    "by_source": {
+     "ledger-action": 1
+    },
+    "missed_last": []
+   },
+   "RANGE SOL 24h": {
+    "expected": 0,
+    "recorded": 0,
+    "rate": null,
+    "missed_24h": 0,
+    "by_source": {},
+    "missed_last": []
+   },
+   "RANGE SOL 1w": {
+    "expected": 0,
+    "recorded": 0,
+    "rate": null,
+    "missed_24h": 0,
+    "by_source": {},
+    "missed_last": []
+   }
+  }
+ },
  "assets": {
   "XAU": {
    "tracking_since": "2026-11-16T02:48:38Z",
