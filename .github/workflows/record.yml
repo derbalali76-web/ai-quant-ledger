@@ -31,8 +31,10 @@ jobs:
             for a in XAU BTC ETH SOL; do
               [ -s "$IN/snap_$a.json" ] && continue
               left=$(( deadline - $(date +%s) )); [ "$left" -le 15 ] && break 2
-              curl -fsS --max-time $(( left < 100 ? left : 100 )) "$URL?asset=$a" -o "$IN/snap_$a.json" \
-                || rm -f "$IN/snap_$a.json"
+              t0=$(date +%s)
+              if curl -fsS --max-time $(( left < 100 ? left : 100 )) "$URL?asset=$a" -o "$IN/snap_$a.json"; then
+                echo "$a: server answered in $(( $(date +%s) - t0 )) s"
+              else rm -f "$IN/snap_$a.json"; echo "$a: no answer after $(( $(date +%s) - t0 )) s (round $round)"; fi
             done
             missing=0; for a in XAU BTC ETH SOL; do [ -s "$IN/snap_$a.json" ] || missing=1; done
             [ "$missing" = 0 ] && break
