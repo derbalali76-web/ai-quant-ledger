@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "updated_at": "2026-11-17T16:00:36Z",
- "chain_head": "80f26d49f27bcd4ed727a97e080786b4d8039e91c3fb8d04d92a504b2bbad924",
- "lines": 152,
+ "updated_at": "2026-11-17T17:00:51Z",
+ "chain_head": "f3ee41c2f6227b1f54aac348b1d82a16b943c298d473e396090dfbb74411e80b",
+ "lines": 156,
  "tracking_since": "2026-11-16T02:48:38Z",
  "days_tracked": 1,
  "recommendations": {
@@ -855,6 +855,12 @@
     "missed_last": []
    }
   }
+ },
+ "advice": {
+  "version": "advice-0.1.0",
+  "min_n": 20,
+  "assets": {},
+  "recorded": 4
  },
  "assets": {
   "XAU": {
