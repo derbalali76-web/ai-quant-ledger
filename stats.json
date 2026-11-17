@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "updated_at": "2026-11-17T04:00:30Z",
- "chain_head": "f27e6202b186777042547a1e7a760daf997bbeb4e310dc9fb8004fad36ea35f0",
- "lines": 109,
+ "updated_at": "2026-11-17T04:33:42Z",
+ "chain_head": "1b770b129833019fdaba1520efa417bc3d6e668433604b8116d296df87ad1caf",
+ "lines": 110,
  "tracking_since": "2026-11-16T02:48:38Z",
  "days_tracked": 1,
  "recommendations": {
@@ -606,8 +606,8 @@
   "XAU": {
    "4h": {
     "recorded": 3,
-    "settled": 1,
-    "inside": 1,
+    "settled": 2,
+    "inside": 2,
     "last": {
      "issued_at": "2026-11-17T04:00:00Z",
      "low": 3847.3212657450845,
