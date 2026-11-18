@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-18T10:00:41Z",
+ "updated_at": "2026-11-18T10:40:53Z",
  "chain_head": "5c0b6dbbb4cef089f9ee5bc3aacd6b89de689848ee989c8809bd978f3118e612",
  "lines": 261,
  "tracking_since": "2026-11-16T02:48:38Z",
@@ -824,6 +824,488 @@
    }
   }
  },
+ "range_rows": [
+  {
+   "seq": 260,
+   "asset": "XAU",
+   "horizon": "4h",
+   "issued_at": "2026-11-18T08:00:00Z",
+   "low": 3741.972937260899,
+   "high": 3804.0599099958263,
+   "outcome": "PENDING",
+   "close": null
+  },
+  {
+   "seq": 258,
+   "asset": "SOL",
+   "horizon": "4h",
+   "issued_at": "2026-11-18T08:00:00Z",
+   "low": 73.7359784252834,
+   "high": 76.52799891445716,
+   "outcome": "PENDING",
+   "close": null
+  },
+  {
+   "seq": 252,
+   "asset": "ETH",
+   "horizon": "4h",
+   "issued_at": "2026-11-18T08:00:00Z",
+   "low": 1790.1844055311358,
+   "high": 1843.0241854175306,
+   "outcome": "PENDING",
+   "close": null
+  },
+  {
+   "seq": 246,
+   "asset": "BTC",
+   "horizon": "4h",
+   "issued_at": "2026-11-18T08:00:00Z",
+   "low": 64063.18997622328,
+   "high": 65619.93879001448,
+   "outcome": "PENDING",
+   "close": null
+  },
+  {
+   "seq": 244,
+   "asset": "XAU",
+   "horizon": "4h",
+   "issued_at": "2026-11-18T04:00:00Z",
+   "low": 3763.0136467063116,
+   "high": 3814.93299644833,
+   "outcome": "INSIDE",
+   "close": 3772.4332
+  },
+  {
+   "seq": 242,
+   "asset": "SOL",
+   "horizon": "4h",
+   "issued_at": "2026-11-18T04:00:00Z",
+   "low": 73.41274694206261,
+   "high": 76.07557836076958,
+   "outcome": "INSIDE",
+   "close": 75.19
+  },
+  {
+   "seq": 236,
+   "asset": "ETH",
+   "horizon": "4h",
+   "issued_at": "2026-11-18T04:00:00Z",
+   "low": 1779.0385730839764,
+   "high": 1830.043683702528,
+   "outcome": "INSIDE",
+   "close": 1817.24
+  },
+  {
+   "seq": 230,
+   "asset": "BTC",
+   "horizon": "4h",
+   "issued_at": "2026-11-18T04:00:00Z",
+   "low": 63679.09230488571,
+   "high": 65155.89728544196,
+   "outcome": "INSIDE",
+   "close": 64884.01
+  },
+  {
+   "seq": 197,
+   "asset": "XAU",
+   "horizon": "24h",
+   "issued_at": "2026-11-18T00:00:00Z",
+   "low": 3790.795832075269,
+   "high": 3913.7680495816226,
+   "outcome": "PENDING",
+   "close": null
+  },
+  {
+   "seq": 196,
+   "asset": "XAU",
+   "horizon": "4h",
+   "issued_at": "2026-11-18T00:00:00Z",
+   "low": 3836.6643432941523,
+   "high": 3867.437296601864,
+   "outcome": "BELOW",
+   "close": 3788.5035
+  },
+  {
+   "seq": 192,
+   "asset": "SOL",
+   "horizon": "24h",
+   "issued_at": "2026-11-18T00:00:00Z",
+   "low": 71.21933411880872,
+   "high": 78.86184843991258,
+   "outcome": "PENDING",
+   "close": null
+  },
+  {
+   "seq": 191,
+   "asset": "SOL",
+   "horizon": "4h",
+   "issued_at": "2026-11-18T00:00:00Z",
+   "low": 73.67600131657413,
+   "high": 76.58426911555664,
+   "outcome": "INSIDE",
+   "close": 74.8
+  },
+  {
+   "seq": 183,
+   "asset": "ETH",
+   "horizon": "24h",
+   "issued_at": "2026-11-18T00:00:00Z",
+   "low": 1742.3179547844659,
+   "high": 1897.4808894844791,
+   "outcome": "PENDING",
+   "close": null
+  },
+  {
+   "seq": 182,
+   "asset": "ETH",
+   "horizon": "4h",
+   "issued_at": "2026-11-18T00:00:00Z",
+   "low": 1797.4935694173976,
+   "high": 1850.9825306309388,
+   "outcome": "INSIDE",
+   "close": 1805.16
+  },
+  {
+   "seq": 174,
+   "asset": "BTC",
+   "horizon": "24h",
+   "issued_at": "2026-11-18T00:00:00Z",
+   "low": 62653.69214647159,
+   "high": 66998.41248992828,
+   "outcome": "PENDING",
+   "close": null
+  },
+  {
+   "seq": 173,
+   "asset": "BTC",
+   "horizon": "4h",
+   "issued_at": "2026-11-18T00:00:00Z",
+   "low": 64117.54526163729,
+   "high": 65691.4237988553,
+   "outcome": "INSIDE",
+   "close": 64457.96
+  },
+  {
+   "seq": 171,
+   "asset": "XAU",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T20:00:00Z",
+   "low": 3827.602281687366,
+   "high": 3866.6754823960796,
+   "outcome": "INSIDE",
+   "close": 3851.7943
+  },
+  {
+   "seq": 166,
+   "asset": "SOL",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T20:00:00Z",
+   "low": 71.41606272767443,
+   "high": 74.1312093618261,
+   "outcome": "ABOVE",
+   "close": 75.19
+  },
+  {
+   "seq": 160,
+   "asset": "ETH",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T20:00:00Z",
+   "low": 1762.2571058381025,
+   "high": 1818.6991695442537,
+   "outcome": "ABOVE",
+   "close": 1824.88
+  },
+  {
+   "seq": 157,
+   "asset": "BTC",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T20:00:00Z",
+   "low": 62904.26895032307,
+   "high": 64515.865951127395,
+   "outcome": "ABOVE",
+   "close": 64947.35
+  },
+  {
+   "seq": 151,
+   "asset": "XAU",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T16:00:00Z",
+   "low": 3850.353831504141,
+   "high": 3903.7017102943314,
+   "outcome": "BELOW",
+   "close": 3846.8026
+  },
+  {
+   "seq": 149,
+   "asset": "SOL",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T16:00:00Z",
+   "low": 70.85208326211155,
+   "high": 73.96314355443864,
+   "outcome": "INSIDE",
+   "close": 72.83
+  },
+  {
+   "seq": 144,
+   "asset": "ETH",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T16:00:00Z",
+   "low": 1750.7162258818817,
+   "high": 1818.7009535178206,
+   "outcome": "INSIDE",
+   "close": 1791.14
+  },
+  {
+   "seq": 139,
+   "asset": "BTC",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T16:00:00Z",
+   "low": 63039.40537337207,
+   "high": 65083.340123656824,
+   "outcome": "INSIDE",
+   "close": 63753.75
+  },
+  {
+   "seq": 137,
+   "asset": "XAU",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T12:00:00Z",
+   "low": 3834.857612659186,
+   "high": 3900.3121644790167,
+   "outcome": "INSIDE",
+   "close": 3876.5446
+  },
+  {
+   "seq": 135,
+   "asset": "SOL",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T12:00:00Z",
+   "low": 71.81849544200814,
+   "high": 75.05266187399718,
+   "outcome": "INSIDE",
+   "close": 72.47
+  },
+  {
+   "seq": 130,
+   "asset": "ETH",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T12:00:00Z",
+   "low": 1784.4394506780654,
+   "high": 1858.5719154379533,
+   "outcome": "INSIDE",
+   "close": 1785.45
+  },
+  {
+   "seq": 125,
+   "asset": "BTC",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T12:00:00Z",
+   "low": 63877.77004494343,
+   "high": 66002.07768978723,
+   "outcome": "INSIDE",
+   "close": 64115.09
+  },
+  {
+   "seq": 123,
+   "asset": "XAU",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T08:00:00Z",
+   "low": 3842.749568886267,
+   "high": 3901.408298095291,
+   "outcome": "INSIDE",
+   "close": 3866.9662
+  },
+  {
+   "seq": 121,
+   "asset": "SOL",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T08:00:00Z",
+   "low": 71.67928897304287,
+   "high": 74.13648114089206,
+   "outcome": "INSIDE",
+   "close": 73.5
+  },
+  {
+   "seq": 116,
+   "asset": "ETH",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T08:00:00Z",
+   "low": 1805.1246884734394,
+   "high": 1857.8428413809943,
+   "outcome": "INSIDE",
+   "close": 1822.29
+  },
+  {
+   "seq": 111,
+   "asset": "BTC",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T08:00:00Z",
+   "low": 63913.66150112689,
+   "high": 65481.22378849513,
+   "outcome": "INSIDE",
+   "close": 64995.54
+  },
+  {
+   "seq": 109,
+   "asset": "XAU",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T04:00:00Z",
+   "low": 3847.3212657450845,
+   "high": 3895.1005987787034,
+   "outcome": "INSIDE",
+   "close": 3871.5375
+  },
+  {
+   "seq": 107,
+   "asset": "SOL",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T04:00:00Z",
+   "low": 71.50245196051326,
+   "high": 74.05030333337983,
+   "outcome": "INSIDE",
+   "close": 72.96
+  },
+  {
+   "seq": 102,
+   "asset": "ETH",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T04:00:00Z",
+   "low": 1805.8501924373184,
+   "high": 1858.4197247867246,
+   "outcome": "INSIDE",
+   "close": 1832.12
+  },
+  {
+   "seq": 88,
+   "asset": "BTC",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T04:00:00Z",
+   "low": 64232.66001213263,
+   "high": 65795.18365078473,
+   "outcome": "INSIDE",
+   "close": 64740.14
+  },
+  {
+   "seq": 69,
+   "asset": "XAU",
+   "horizon": "24h",
+   "issued_at": "2026-11-17T00:00:00Z",
+   "low": 3795.270488628467,
+   "high": 3934.7177467482893,
+   "outcome": "INSIDE",
+   "close": 3850.693
+  },
+  {
+   "seq": 68,
+   "asset": "XAU",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T00:00:00Z",
+   "low": 3844.938217818854,
+   "high": 3884.480503821837,
+   "outcome": "INSIDE",
+   "close": 3870.365
+  },
+  {
+   "seq": 65,
+   "asset": "SOL",
+   "horizon": "24h",
+   "issued_at": "2026-11-17T00:00:00Z",
+   "low": 68.18630801007588,
+   "high": 74.70160604365168,
+   "outcome": "ABOVE",
+   "close": 75.19
+  },
+  {
+   "seq": 64,
+   "asset": "SOL",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T00:00:00Z",
+   "low": 70.31265541330906,
+   "high": 72.74437354915563,
+   "outcome": "ABOVE",
+   "close": 72.83
+  },
+  {
+   "seq": 58,
+   "asset": "ETH",
+   "horizon": "24h",
+   "issued_at": "2026-11-17T00:00:00Z",
+   "low": 1741.0299237974932,
+   "high": 1890.6003440389352,
+   "outcome": "INSIDE",
+   "close": 1824.88
+  },
+  {
+   "seq": 57,
+   "asset": "ETH",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T00:00:00Z",
+   "low": 1793.993804126356,
+   "high": 1846.0867017555706,
+   "outcome": "INSIDE",
+   "close": 1832.77
+  },
+  {
+   "seq": 51,
+   "asset": "BTC",
+   "horizon": "24h",
+   "issued_at": "2026-11-17T00:00:00Z",
+   "low": 62646.62307970349,
+   "high": 66880.95414790063,
+   "outcome": "INSIDE",
+   "close": 64947.35
+  },
+  {
+   "seq": 50,
+   "asset": "BTC",
+   "horizon": "4h",
+   "issued_at": "2026-11-17T00:00:00Z",
+   "low": 64068.51828603962,
+   "high": 65612.93011303253,
+   "outcome": "INSIDE",
+   "close": 65056.52
+  },
+  {
+   "seq": 49,
+   "asset": "XAU",
+   "horizon": "4h",
+   "issued_at": "2026-11-16T20:00:00Z",
+   "low": 3843.0403353350644,
+   "high": 3885.1309945489447,
+   "outcome": "INSIDE",
+   "close": 3862.821
+  },
+  {
+   "seq": 48,
+   "asset": "SOL",
+   "horizon": "4h",
+   "issued_at": "2026-11-16T20:00:00Z",
+   "low": 70.14943012377834,
+   "high": 72.83910841096422,
+   "outcome": "INSIDE",
+   "close": 71.58
+  },
+  {
+   "seq": 45,
+   "asset": "ETH",
+   "horizon": "4h",
+   "issued_at": "2026-11-16T20:00:00Z",
+   "low": 1793.6147738862874,
+   "high": 1852.5941911681332,
+   "outcome": "INSIDE",
+   "close": 1820.67
+  },
+  {
+   "seq": 42,
+   "asset": "BTC",
+   "horizon": "4h",
+   "issued_at": "2026-11-16T20:00:00Z",
+   "low": 64155.76122834782,
+   "high": 65886.98254054016,
+   "outcome": "INSIDE",
+   "close": 64882.87
+  }
+ ],
  "hilo": {
   "BTC": {
    "4h": {
