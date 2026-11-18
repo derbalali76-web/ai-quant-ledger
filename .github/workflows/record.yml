@@ -23,6 +23,9 @@ jobs:
         run: |
           mkdir -p "$RUNNER_TEMP/in"
           python3 issue.py "$RUNNER_TEMP/in" 2>&1 | tee "$RUNNER_TEMP/in/issuer.txt"
+      - name: trade engine inputs (BTC bars + funding; failure never blocks the range record)
+        continue-on-error: true
+        run: python3 te_live.py fetch "$RUNNER_TEMP/in" .
       - name: server snapshots (gold, daily analysis, backup computation; at most 8 minutes in total)
         env:
           URL: ${{ vars.SNAPSHOT_URL || 'https://gold-ai-quant.onrender.com/public/snapshot' }}
