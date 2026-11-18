@@ -1,0 +1,23 @@
+{
+ "engine": "te-live-h1-0.1",
+ "rule": "te-0.2.0/H1_q0.1_E5d",
+ "asset": "BTC",
+ "experimental": true,
+ "updated_at": "2026-11-18T14:00:17Z",
+ "started_at": "2026-11-18T16:00:00Z",
+ "price": 63944.13,
+ "last_scan": null,
+ "scans": 0,
+ "active": [],
+ "last_closed": null,
+ "record": {
+  "orders": 0,
+  "not_filled": 0,
+  "closed": 0,
+  "wins": 0,
+  "losses": 0,
+  "mean_net_pct": null,
+  "total_net_pct": null
+ },
+ "pass_rule": "experimental until >= 60 filled trades and >= 12 weeks with PF > 1.2 (lower bound > 1) and mean net > 0"
+}
