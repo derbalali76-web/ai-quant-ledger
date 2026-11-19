@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "updated_at": "2026-11-19T00:00:54Z",
- "chain_head": "a0c861fb455d8589148128e22c46b22f3265c9aa3449c3c369378a9976d3f5b6",
- "lines": 348,
+ "updated_at": "2026-11-19T01:00:54Z",
+ "chain_head": "91a75e05a3ffe96cc1da2b5012767757bd2bdbb4845baca851712d05e5cb79a3",
+ "lines": 357,
  "tracking_since": "2026-11-16T02:48:38Z",
  "days_tracked": 2,
  "recommendations": {
@@ -24,9 +24,9 @@
  "by_horizon": {},
  "by_model": {},
  "analysis": {
-  "days": 3,
-  "scored": 1,
-  "correct": 1,
+  "days": 4,
+  "scored": 2,
+  "correct": 2,
   "accuracy": 1.0,
   "baseline_accuracy": 0.0
  },
@@ -539,6 +539,28 @@
  },
  "briefs": [
   {
+   "seq": 354,
+   "asset": "SOL",
+   "date": "2026-11-19",
+   "bias": "SIDEWAYS",
+   "price": 73.71,
+   "recorded_at": "2026-11-19T01:00:54Z",
+   "outcome": "PENDING",
+   "close": null,
+   "baseline_up_correct": null
+  },
+  {
+   "seq": 349,
+   "asset": "XAU",
+   "date": "2026-11-19",
+   "bias": "DOWN",
+   "price": 3753.72,
+   "recorded_at": "2026-11-19T01:00:54Z",
+   "outcome": "PENDING",
+   "close": null,
+   "baseline_up_correct": null
+  },
+  {
    "seq": 343,
    "asset": "ETH",
    "date": "2026-11-19",
@@ -567,9 +589,9 @@
    "bias": "DOWN",
    "price": 3815.05,
    "recorded_at": "2026-11-18T01:00:32Z",
-   "outcome": "PENDING",
-   "close": null,
-   "baseline_up_correct": null
+   "outcome": "CORRECT",
+   "close": 3723.728,
+   "baseline_up_correct": false
   },
   {
    "seq": 211,
@@ -2045,9 +2067,9 @@
    "by_horizon": {},
    "by_model": {},
    "analysis": {
-    "days": 3,
-    "scored": 1,
-    "correct": 1,
+    "days": 4,
+    "scored": 2,
+    "correct": 2,
     "accuracy": 1.0,
     "baseline_accuracy": 0.0
    },
@@ -2135,7 +2157,7 @@
    "by_horizon": {},
    "by_model": {},
    "analysis": {
-    "days": 5,
+    "days": 6,
     "scored": 5,
     "correct": 2,
     "accuracy": 0.4,
@@ -2145,7 +2167,7 @@
   }
  },
  "outcome3": {
-  "recorded": 1,
+  "recorded": 2,
   "settled": 1,
   "with_likely": 1,
   "likely_correct": 1,
@@ -2161,6 +2183,17 @@
      0.596
     ],
     "outcome": "NONE"
+   },
+   {
+    "asset": "SOL",
+    "date": "2026-11-19",
+    "likely": "NONE",
+    "p": [
+     0.105,
+     0.132,
+     0.762
+    ],
+    "outcome": null
    }
   ]
  }
