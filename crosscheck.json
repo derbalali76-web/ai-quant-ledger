@@ -8,94 +8,6 @@
 "other": "ledger-action",
 "max_rel_diff": 0.0,
 "agree": true,
-"run": "2026-11-17T20:00:49Z"
-},
-{
-"kind": "HILO",
-"asset": "BTC",
-"horizon": "4h",
-"issued_at": "2026-11-17T20:00:00Z",
-"recorded": "server",
-"other": "ledger-action",
-"max_rel_diff": 0.0,
-"agree": true,
-"run": "2026-11-17T20:00:49Z"
-},
-{
-"kind": "HILO",
-"asset": "BTC",
-"horizon": "24h",
-"issued_at": "2026-11-17T20:00:00Z",
-"recorded": "server",
-"other": "ledger-action",
-"max_rel_diff": 0.0,
-"agree": true,
-"run": "2026-11-17T20:00:49Z"
-},
-{
-"kind": "RANGE",
-"asset": "ETH",
-"horizon": "4h",
-"issued_at": "2026-11-17T20:00:00Z",
-"recorded": "server",
-"other": "ledger-action",
-"max_rel_diff": 0.0,
-"agree": true,
-"run": "2026-11-17T20:00:49Z"
-},
-{
-"kind": "HILO",
-"asset": "ETH",
-"horizon": "4h",
-"issued_at": "2026-11-17T20:00:00Z",
-"recorded": "server",
-"other": "ledger-action",
-"max_rel_diff": 0.0,
-"agree": true,
-"run": "2026-11-17T20:00:49Z"
-},
-{
-"kind": "HILO",
-"asset": "ETH",
-"horizon": "24h",
-"issued_at": "2026-11-17T20:00:00Z",
-"recorded": "server",
-"other": "ledger-action",
-"max_rel_diff": 0.0,
-"agree": true,
-"run": "2026-11-17T20:00:49Z"
-},
-{
-"kind": "RANGE",
-"asset": "SOL",
-"horizon": "4h",
-"issued_at": "2026-11-17T20:00:00Z",
-"recorded": "server",
-"other": "ledger-action",
-"max_rel_diff": 0.0,
-"agree": true,
-"run": "2026-11-17T20:00:49Z"
-},
-{
-"kind": "RANGE",
-"asset": "XAU",
-"horizon": "4h",
-"issued_at": "2026-11-17T20:00:00Z",
-"recorded": "ledger-action",
-"other": "server",
-"max_rel_diff": 0.0,
-"agree": true,
-"run": "2026-11-17T20:00:49Z"
-},
-{
-"kind": "RANGE",
-"asset": "BTC",
-"horizon": "4h",
-"issued_at": "2026-11-17T20:00:00Z",
-"recorded": "server",
-"other": "ledger-action",
-"max_rel_diff": 0.0,
-"agree": true,
 "run": "2026-11-17T21:03:29Z"
 },
 {
@@ -3298,5 +3210,93 @@
 "max_rel_diff": 0.0,
 "agree": true,
 "run": "2026-11-20T09:00:44Z"
+},
+{
+"kind": "RANGE",
+"asset": "XAU",
+"horizon": "4h",
+"issued_at": "2026-11-20T08:00:00Z",
+"recorded": "ledger-action",
+"other": "server",
+"max_rel_diff": 0.00036002,
+"agree": true,
+"run": "2026-11-20T09:08:36Z"
+},
+{
+"kind": "RANGE",
+"asset": "BTC",
+"horizon": "4h",
+"issued_at": "2026-11-20T08:00:00Z",
+"recorded": "ledger-action",
+"other": "server",
+"max_rel_diff": 0.0,
+"agree": true,
+"run": "2026-11-20T09:08:36Z"
+},
+{
+"kind": "HILO",
+"asset": "BTC",
+"horizon": "4h",
+"issued_at": "2026-11-20T08:00:00Z",
+"recorded": "ledger-action",
+"other": "server",
+"max_rel_diff": 0.0,
+"agree": true,
+"run": "2026-11-20T09:08:36Z"
+},
+{
+"kind": "HILO",
+"asset": "BTC",
+"horizon": "24h",
+"issued_at": "2026-11-20T08:00:00Z",
+"recorded": "ledger-action",
+"other": "server",
+"max_rel_diff": 0.0,
+"agree": true,
+"run": "2026-11-20T09:08:36Z"
+},
+{
+"kind": "RANGE",
+"asset": "ETH",
+"horizon": "4h",
+"issued_at": "2026-11-20T08:00:00Z",
+"recorded": "ledger-action",
+"other": "server",
+"max_rel_diff": 0.0,
+"agree": true,
+"run": "2026-11-20T09:08:36Z"
+},
+{
+"kind": "HILO",
+"asset": "ETH",
+"horizon": "4h",
+"issued_at": "2026-11-20T08:00:00Z",
+"recorded": "ledger-action",
+"other": "server",
+"max_rel_diff": 0.0,
+"agree": true,
+"run": "2026-11-20T09:08:36Z"
+},
+{
+"kind": "HILO",
+"asset": "ETH",
+"horizon": "24h",
+"issued_at": "2026-11-20T08:00:00Z",
+"recorded": "ledger-action",
+"other": "server",
+"max_rel_diff": 0.0,
+"agree": true,
+"run": "2026-11-20T09:08:36Z"
+},
+{
+"kind": "RANGE",
+"asset": "SOL",
+"horizon": "4h",
+"issued_at": "2026-11-20T08:00:00Z",
+"recorded": "ledger-action",
+"other": "server",
+"max_rel_diff": 0.0,
+"agree": true,
+"run": "2026-11-20T09:08:36Z"
 }
 ]
