@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T00:55:04Z",
+ "updated_at": "2026-11-20T01:00:39Z",
  "chain_head": "87f08cd4a86b4743a770b5e04db564a1ce1f212fc3a0af05587a159819122e53",
  "lines": 491,
  "tracking_since": "2026-11-16T02:48:38Z",
@@ -2648,10 +2648,10 @@
  },
  "outcome3": {
   "recorded": 3,
-  "settled": 1,
-  "with_likely": 1,
-  "likely_correct": 1,
-  "expected_correct": 0.6,
+  "settled": 2,
+  "with_likely": 2,
+  "likely_correct": 2,
+  "expected_correct": 1.36,
   "recent": [
    {
     "asset": "BTC",
@@ -2673,7 +2673,7 @@
      0.132,
      0.762
     ],
-    "outcome": null
+    "outcome": "NONE"
    },
    {
     "asset": "SOL",
