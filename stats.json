@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "updated_at": "2026-11-21T00:01:09Z",
- "chain_head": "457f1d48598e95a21ec6daa87a3b5b2cc204d1c35f3feb69cf000547ee4ddb80",
- "lines": 618,
+ "updated_at": "2026-11-21T00:11:16Z",
+ "chain_head": "ba831904cafede867b8f116c09c2301e016ad66f53c5dd07497bcd982bf2c012",
+ "lines": 619,
  "tracking_since": "2026-11-16T02:48:38Z",
  "days_tracked": 4,
  "recommendations": {
@@ -25,8 +25,8 @@
  "by_model": {},
  "analysis": {
   "days": 5,
-  "scored": 3,
-  "correct": 3,
+  "scored": 4,
+  "correct": 4,
   "accuracy": 1.0,
   "baseline_accuracy": 0.0
  },
@@ -686,9 +686,9 @@
    "bias": "DOWN",
    "price": 3592.46,
    "recorded_at": "2026-11-20T00:55:04Z",
-   "outcome": "PENDING",
-   "close": null,
-   "baseline_up_correct": null
+   "outcome": "CORRECT",
+   "close": 3520.57,
+   "baseline_up_correct": false
   },
   {
    "seq": 485,
@@ -2955,8 +2955,8 @@
    "by_model": {},
    "analysis": {
     "days": 5,
-    "scored": 3,
-    "correct": 3,
+    "scored": 4,
+    "correct": 4,
     "accuracy": 1.0,
     "baseline_accuracy": 0.0
    },
