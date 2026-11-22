@@ -1,6 +1,6 @@
 {
  "schema": "decision-state-2",
- "updated_at": "2026-11-22T22:00:35Z",
+ "updated_at": "2026-11-22T22:45:50Z",
  "assets": {
   "XAU": {
    "asset": "XAU",
@@ -8,23 +8,46 @@
     "value": 3533.284,
     "at": "2026-11-20T22:00:00Z"
    },
-   "scenario": null,
-   "signal": null,
+   "scenario": {
+    "source": "advice-0.1.0",
+    "recorded_at": "2026-11-22T22:45:50Z",
+    "hours": {
+     "down": null,
+     "likely": "NONE",
+     "up": [
+      3866.02,
+      4123.36
+     ]
+    },
+    "week": {
+     "down": null,
+     "likely": "NONE",
+     "up": [
+      3866.02,
+      4123.36
+     ]
+    },
+    "stage": "FORECAST"
+   },
+   "signal": {
+    "id": "2d4467edc6c7",
+    "kind": "NO_EDGE"
+   },
    "actions": {
     "holder": {
      "action": "HOLD",
-     "stage": "NONE",
+     "stage": "BLOCKED",
      "level": null,
      "rebuy_at": null,
-     "reason": "no_signal"
+     "reason": "stale_or_missing_price"
     },
     "cash": {
      "action": "WAIT",
-     "stage": "NONE",
+     "stage": "BLOCKED",
      "level": null,
-     "reason": "no_signal"
+     "reason": "stale_or_missing_price"
     },
-    "signal_id": null
+    "signal_id": "2d4467edc6c7"
    },
    "view": {
     "holder": {
@@ -32,8 +55,7 @@
      "signal_id": null,
      "plan": null,
      "why": [
-      "blocked:stale_or_missing_price",
-      "blocked:stale_advice"
+      "blocked:stale_or_missing_price"
      ]
     },
     "cash": {
@@ -41,8 +63,7 @@
      "signal_id": null,
      "plan": null,
      "why": [
-      "blocked:stale_or_missing_price",
-      "blocked:stale_advice"
+      "blocked:stale_or_missing_price"
      ]
     }
    },
@@ -51,11 +72,10 @@
    "gates": {
     "ok": false,
     "reasons": [
-     "stale_or_missing_price",
-     "stale_advice"
+     "stale_or_missing_price"
     ]
    },
-   "signature": "fec609f2ecaaa6f6"
+   "signature": "9b2b0cd5afbc32b8"
   },
   "BTC": {
    "asset": "BTC",
