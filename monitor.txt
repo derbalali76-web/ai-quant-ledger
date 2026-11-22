@@ -1,0 +1,1 @@
+ALERT XAU: price is 2940 min old
