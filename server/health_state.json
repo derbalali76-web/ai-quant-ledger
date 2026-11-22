@@ -1,0 +1,10 @@
+{
+ "updated_at": "2026-11-22T14:43:55Z",
+ "observed_since": null,
+ "restarts": 0,
+ "restarts_per_day": {},
+ "down_events": 0,
+ "memory_alerts": 0,
+ "last": null,
+ "chain_ok": true
+}
