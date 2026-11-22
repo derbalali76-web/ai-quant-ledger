@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-22T18:00:40Z",
+ "updated_at": "2026-11-22T19:00:43Z",
  "chain_head": "a876e4256a4120383a9f110a3a028ccfa50cb0639e39b9eb1c64ba8a7f074369",
  "lines": 798,
  "tracking_since": "2026-11-16T02:48:38Z",
@@ -3426,7 +3426,7 @@
   },
   "BTC": {
    "tracking_since": "2026-11-14T18:16:24Z",
-   "days_tracked": 7,
+   "days_tracked": 8,
    "recommendations": {
     "completed": 0,
     "wins": 0,
@@ -3486,7 +3486,7 @@
   },
   "SOL": {
    "tracking_since": "2026-11-14T18:16:24Z",
-   "days_tracked": 7,
+   "days_tracked": 8,
    "recommendations": {
     "completed": 0,
     "wins": 0,
