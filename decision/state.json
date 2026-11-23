@@ -1,22 +1,25 @@
 {
  "schema": "decision-state-2",
- "updated_at": "2026-11-22T23:00:44Z",
+ "updated_at": "2026-11-23T00:01:05Z",
  "assets": {
   "XAU": {
    "asset": "XAU",
    "price": {
-    "value": 3533.284,
-    "at": "2026-11-20T22:00:00Z"
+    "value": 3583.1731,
+    "at": "2026-11-23T00:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
-    "recorded_at": "2026-11-22T22:45:50Z",
+    "recorded_at": "2026-11-23T00:01:04Z",
     "hours": {
-     "down": null,
+     "down": [
+      3566.24,
+      3554.17
+     ],
      "likely": "NONE",
      "up": [
-      3866.02,
-      4123.36
+      3620.96,
+      3636.23
      ]
     },
     "week": {
@@ -30,24 +33,26 @@
     "stage": "FORECAST"
    },
    "signal": {
-    "id": "2d4467edc6c7",
+    "id": "381153e9b78d",
     "kind": "NO_EDGE"
    },
    "actions": {
     "holder": {
      "action": "HOLD",
-     "stage": "BLOCKED",
+     "stage": "NONE",
      "level": null,
      "rebuy_at": null,
-     "reason": "stale_or_missing_price"
+     "advice": "NOTHING",
+     "reason": "advice-0.1.0"
     },
     "cash": {
      "action": "WAIT",
-     "stage": "BLOCKED",
+     "stage": "NONE",
      "level": null,
-     "reason": "stale_or_missing_price"
+     "advice": "NOTHING",
+     "reason": "advice-0.1.0"
     },
-    "signal_id": "2d4467edc6c7"
+    "signal_id": "381153e9b78d"
    },
    "view": {
     "holder": {
@@ -55,7 +60,7 @@
      "signal_id": null,
      "plan": null,
      "why": [
-      "blocked:stale_or_missing_price"
+      "no_edge"
      ]
     },
     "cash": {
@@ -63,37 +68,35 @@
      "signal_id": null,
      "plan": null,
      "why": [
-      "blocked:stale_or_missing_price"
+      "no_edge"
      ]
     }
    },
    "radar": [],
    "opportunity": null,
    "gates": {
-    "ok": false,
-    "reasons": [
-     "stale_or_missing_price"
-    ]
+    "ok": true,
+    "reasons": []
    },
-   "signature": "9b2b0cd5afbc32b8"
+   "signature": "de29e2e06909c306"
   },
   "BTC": {
    "asset": "BTC",
    "price": {
-    "value": 61115.08,
-    "at": "2026-11-22T23:00:00Z"
+    "value": 61271.08,
+    "at": "2026-11-23T00:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
-    "recorded_at": "2026-11-22T00:01:02Z",
+    "recorded_at": "2026-11-23T00:01:04Z",
     "hours": {
      "down": [
-      58815.65,
-      57798.55
+      59988.0,
+      58871.23
      ],
-     "likely": "DOWN",
+     "likely": "NONE",
      "up": [
-      63796.13,
+      66435.48,
       66957.49
      ]
     },
@@ -111,55 +114,46 @@
     "stage": "FORECAST"
    },
    "signal": {
-    "id": "22af8ddda9fa",
-    "kind": "DOWN_MOVE"
+    "id": "e40bad1c1d5c",
+    "kind": "NO_EDGE"
    },
    "actions": {
     "holder": {
-     "action": "SELL_OWNED",
-     "stage": "SCENARIO",
-     "level": 63796.13,
-     "rebuy_at": 57798.55,
-     "advice": "SELL_NOW",
+     "action": "HOLD",
+     "stage": "NONE",
+     "level": null,
+     "rebuy_at": null,
+     "advice": "NOTHING",
      "reason": "advice-0.1.0"
     },
     "cash": {
      "action": "WAIT",
-     "stage": "SCENARIO",
-     "level": 57798.55,
-     "advice": "WAIT_BUY_LOWER",
+     "stage": "NONE",
+     "level": null,
+     "advice": "NOTHING",
      "reason": "advice-0.1.0"
     },
-    "signal_id": "22af8ddda9fa"
+    "signal_id": "e40bad1c1d5c"
    },
    "view": {
     "holder": {
      "verdict": "WAIT",
-     "signal_id": "22af8ddda9fa",
+     "signal_id": null,
      "plan": null,
      "why": [
-      "not_yet_qualified"
+      "no_edge"
      ]
     },
     "cash": {
      "verdict": "WAIT",
-     "signal_id": "22af8ddda9fa",
+     "signal_id": null,
      "plan": null,
      "why": [
-      "not_yet_qualified"
+      "no_edge"
      ]
     }
    },
-   "radar": [
-    {
-     "id": "22af8ddda9fa",
-     "source": "advice-0.1.0",
-     "state": "FORMING",
-     "holder": "SELL_OWNED",
-     "cash": "WAIT",
-     "level": 57798.55
-    }
-   ],
+   "radar": [],
    "opportunity": {
     "engine": "te-live-h1-0.1",
     "stage": "PAPER_TEST",
@@ -178,26 +172,26 @@
     "ok": true,
     "reasons": []
    },
-   "signature": "db1636994e951e8f"
+   "signature": "a2e06ad97e101010"
   },
   "ETH": {
    "asset": "ETH",
    "price": {
-    "value": 1719.28,
-    "at": "2026-11-22T23:00:00Z"
+    "value": 1724.33,
+    "at": "2026-11-23T00:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
-    "recorded_at": "2026-11-22T00:01:02Z",
+    "recorded_at": "2026-11-23T00:01:04Z",
     "hours": {
      "down": [
-      1673.71,
-      1621.8
+      1693.58,
+      1675.06
      ],
      "likely": "NONE",
      "up": [
-      1693.19,
-      1828.96
+      1743.1,
+      1822.34
      ]
     },
     "week": {
@@ -207,14 +201,14 @@
      ],
      "likely": "NONE",
      "up": [
-      1711.08,
-      1839.65
+      1839.65,
+      1952.4
      ]
     },
     "stage": "FORECAST"
    },
    "signal": {
-    "id": "27bb08a3542e",
+    "id": "561d5a50165a",
     "kind": "NO_EDGE"
    },
    "actions": {
@@ -233,7 +227,7 @@
      "advice": "NOTHING",
      "reason": "advice-0.1.0"
     },
-    "signal_id": "27bb08a3542e"
+    "signal_id": "561d5a50165a"
    },
    "view": {
     "holder": {
@@ -259,26 +253,26 @@
     "ok": true,
     "reasons": []
    },
-   "signature": "cb618b9ff1f1dc84"
+   "signature": "181678396b42c757"
   },
   "SOL": {
    "asset": "SOL",
    "price": {
-    "value": 70.35,
-    "at": "2026-11-22T23:00:00Z"
+    "value": 70.73,
+    "at": "2026-11-23T00:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
-    "recorded_at": "2026-11-22T00:01:02Z",
+    "recorded_at": "2026-11-23T00:01:04Z",
     "hours": {
      "down": [
-      68.3,
-      67.23
+      69.2,
+      68.65
      ],
      "likely": "NONE",
      "up": [
-      78.53,
-      79.69
+      74.93,
+      76.77
      ]
     },
     "week": {
@@ -295,7 +289,7 @@
     "stage": "FORECAST"
    },
    "signal": {
-    "id": "a2e2551d84f6",
+    "id": "74413c635dbf",
     "kind": "NO_EDGE"
    },
    "actions": {
@@ -314,7 +308,7 @@
      "advice": "NOTHING",
      "reason": "advice-0.1.0"
     },
-    "signal_id": "a2e2551d84f6"
+    "signal_id": "74413c635dbf"
    },
    "view": {
     "holder": {
@@ -340,13 +334,13 @@
     "ok": true,
     "reasons": []
    },
-   "signature": "8f94541da2473129"
+   "signature": "0634d80d0f4c0a77"
   },
   "PAXG": {
    "asset": "PAXG",
    "price": {
-    "value": 3547.3,
-    "at": "2026-11-22T23:00:00Z"
+    "value": 3578.89,
+    "at": "2026-11-23T00:00:00Z"
    },
    "scenario": null,
    "signal": null,
