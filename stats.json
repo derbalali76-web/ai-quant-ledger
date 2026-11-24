@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T23:00:45Z",
- "chain_head": "c081c27bb9037a9acfe7fedcf6d274007b86d55dcd4fd08564e32341da1a787b",
- "lines": 954,
+ "updated_at": "2026-11-24T00:03:16Z",
+ "chain_head": "040af0bdd91cbdd1cef46a3c480cbbfe8c4fe29e2d65405e7de9e13ce7acdca9",
+ "lines": 1002,
  "tracking_since": "2026-11-16T02:48:38Z",
  "days_tracked": 7,
  "recommendations": {
@@ -24,11 +24,11 @@
  "by_horizon": {},
  "by_model": {},
  "analysis": {
-  "days": 7,
-  "scored": 4,
+  "days": 8,
+  "scored": 5,
   "correct": 4,
-  "accuracy": 1.0,
-  "baseline_accuracy": 0.0
+  "accuracy": 0.8,
+  "baseline_accuracy": 0.2
  },
  "recent": [],
  "scenarios": {
@@ -647,15 +647,59 @@
  },
  "briefs": [
   {
+   "seq": 998,
+   "asset": "SOL",
+   "date": "2026-11-24",
+   "bias": "SIDEWAYS",
+   "price": 72.03,
+   "recorded_at": "2026-11-24T00:03:16Z",
+   "outcome": "PENDING",
+   "close": null,
+   "baseline_up_correct": null
+  },
+  {
+   "seq": 993,
+   "asset": "ETH",
+   "date": "2026-11-24",
+   "bias": "DOWN",
+   "price": 1710.65,
+   "recorded_at": "2026-11-24T00:03:16Z",
+   "outcome": "PENDING",
+   "close": null,
+   "baseline_up_correct": null
+  },
+  {
+   "seq": 988,
+   "asset": "BTC",
+   "date": "2026-11-24",
+   "bias": "SIDEWAYS",
+   "price": 61270.93,
+   "recorded_at": "2026-11-24T00:03:16Z",
+   "outcome": "PENDING",
+   "close": null,
+   "baseline_up_correct": null
+  },
+  {
+   "seq": 982,
+   "asset": "XAU",
+   "date": "2026-11-24",
+   "bias": "SIDEWAYS",
+   "price": 3631.19,
+   "recorded_at": "2026-11-24T00:03:16Z",
+   "outcome": "PENDING",
+   "close": null,
+   "baseline_up_correct": null
+  },
+  {
    "seq": 861,
    "asset": "XAU",
    "date": "2026-11-23",
    "bias": "DOWN",
    "price": 3576.79,
    "recorded_at": "2026-11-23T01:00:45Z",
-   "outcome": "PENDING",
-   "close": null,
-   "baseline_up_correct": null
+   "outcome": "WRONG",
+   "close": 3643.423,
+   "baseline_up_correct": true
   },
   {
    "seq": 856,
@@ -664,9 +708,9 @@
    "bias": "SIDEWAYS",
    "price": 70.73,
    "recorded_at": "2026-11-23T00:01:04Z",
-   "outcome": "PENDING",
-   "close": null,
-   "baseline_up_correct": null
+   "outcome": "NOT_SCORED",
+   "close": 72.03,
+   "baseline_up_correct": true
   },
   {
    "seq": 851,
@@ -675,9 +719,9 @@
    "bias": "UP",
    "price": 1724.33,
    "recorded_at": "2026-11-23T00:01:04Z",
-   "outcome": "PENDING",
-   "close": null,
-   "baseline_up_correct": null
+   "outcome": "WRONG",
+   "close": 1710.65,
+   "baseline_up_correct": false
   },
   {
    "seq": 846,
@@ -686,9 +730,9 @@
    "bias": "SIDEWAYS",
    "price": 61271.08,
    "recorded_at": "2026-11-23T00:01:04Z",
-   "outcome": "PENDING",
-   "close": null,
-   "baseline_up_correct": null
+   "outcome": "NOT_SCORED",
+   "close": 61270.93,
+   "baseline_up_correct": false
   },
   {
    "seq": 813,
@@ -1046,24 +1090,24 @@
  "ranges": {
   "BTC": {
    "4h": {
-    "recorded": 43,
-    "settled": 42,
-    "inside": 33,
+    "recorded": 44,
+    "settled": 43,
+    "inside": 34,
     "last": {
-     "issued_at": "2026-11-23T20:00:00Z",
-     "low": 59960.71935027661,
-     "high": 62416.57682242274,
+     "issued_at": "2026-11-24T00:00:00Z",
+     "low": 60413.74434079777,
+     "high": 62031.5222331084,
      "outcome": "PENDING"
     }
    },
    "24h": {
-    "recorded": 7,
-    "settled": 6,
-    "inside": 5,
+    "recorded": 8,
+    "settled": 7,
+    "inside": 6,
     "last": {
-     "issued_at": "2026-11-23T00:00:00Z",
-     "low": 59017.40244777442,
-     "high": 63317.702399396505,
+     "issued_at": "2026-11-24T00:00:00Z",
+     "low": 59002.40878120725,
+     "high": 63331.518453121986,
      "outcome": "PENDING"
     }
    },
@@ -1081,24 +1125,24 @@
   },
   "ETH": {
    "4h": {
-    "recorded": 43,
-    "settled": 42,
-    "inside": 34,
+    "recorded": 44,
+    "settled": 43,
+    "inside": 35,
     "last": {
-     "issued_at": "2026-11-23T20:00:00Z",
-     "low": 1690.8608647643289,
-     "high": 1771.1938496022885,
+     "issued_at": "2026-11-24T00:00:00Z",
+     "low": 1677.1961194619835,
+     "high": 1742.6466835950532,
      "outcome": "PENDING"
     }
    },
    "24h": {
-    "recorded": 7,
-    "settled": 6,
-    "inside": 5,
+    "recorded": 8,
+    "settled": 7,
+    "inside": 6,
     "last": {
-     "issued_at": "2026-11-23T00:00:00Z",
-     "low": 1653.1858578338627,
-     "high": 1786.4993529174203,
+     "issued_at": "2026-11-24T00:00:00Z",
+     "low": 1617.712071811396,
+     "high": 1792.894954701746,
      "outcome": "PENDING"
     }
    },
@@ -1116,24 +1160,24 @@
   },
   "SOL": {
    "4h": {
-    "recorded": 43,
-    "settled": 42,
-    "inside": 35,
+    "recorded": 44,
+    "settled": 43,
+    "inside": 36,
     "last": {
-     "issued_at": "2026-11-23T20:00:00Z",
-     "low": 71.00670370033562,
-     "high": 75.05508203767899,
+     "issued_at": "2026-11-24T00:00:00Z",
+     "low": 70.26846301128474,
+     "high": 73.66850245048438,
      "outcome": "PENDING"
     }
    },
    "24h": {
-    "recorded": 7,
-    "settled": 6,
-    "inside": 4,
+    "recorded": 8,
+    "settled": 7,
+    "inside": 5,
     "last": {
-     "issued_at": "2026-11-23T00:00:00Z",
-     "low": 67.69437692592346,
-     "high": 73.48694813061607,
+     "issued_at": "2026-11-24T00:00:00Z",
+     "low": 67.56145792805765,
+     "high": 76.16559737246385,
      "outcome": "PENDING"
     }
    },
@@ -1151,24 +1195,24 @@
   },
   "XAU": {
    "4h": {
-    "recorded": 31,
-    "settled": 30,
-    "inside": 23,
+    "recorded": 32,
+    "settled": 31,
+    "inside": 24,
     "last": {
-     "issued_at": "2026-11-23T20:00:00Z",
-     "low": 3616.426595427178,
-     "high": 3667.8790161486477,
+     "issued_at": "2026-11-24T00:00:00Z",
+     "low": 3610.8426716078056,
+     "high": 3652.236774368944,
      "outcome": "PENDING"
     }
    },
    "24h": {
-    "recorded": 5,
-    "settled": 4,
-    "inside": 2,
+    "recorded": 6,
+    "settled": 5,
+    "inside": 3,
     "last": {
-     "issued_at": "2026-11-23T00:00:00Z",
-     "low": 3499.3017940530112,
-     "high": 3665.821580580422,
+     "issued_at": "2026-11-24T00:00:00Z",
+     "low": 3554.1815595869257,
+     "high": 3706.9055104133554,
      "outcome": "PENDING"
     }
    },
@@ -1187,6 +1231,110 @@
  },
  "range_rows": [
   {
+   "seq": 979,
+   "asset": "XAU",
+   "horizon": "24h",
+   "issued_at": "2026-11-24T00:00:00Z",
+   "low": 3554.1815595869257,
+   "high": 3706.9055104133554,
+   "price_at_issue": 3631.18856,
+   "bars": 23,
+   "outcome": "PENDING",
+   "close": null,
+   "target_bar": null
+  },
+  {
+   "seq": 978,
+   "asset": "XAU",
+   "horizon": "4h",
+   "issued_at": "2026-11-24T00:00:00Z",
+   "low": 3610.8426716078056,
+   "high": 3652.236774368944,
+   "price_at_issue": 3631.18856,
+   "bars": 4,
+   "outcome": "PENDING",
+   "close": null,
+   "target_bar": null
+  },
+  {
+   "seq": 974,
+   "asset": "SOL",
+   "horizon": "24h",
+   "issued_at": "2026-11-24T00:00:00Z",
+   "low": 67.56145792805765,
+   "high": 76.16559737246385,
+   "price_at_issue": 72.03,
+   "bars": 24,
+   "outcome": "PENDING",
+   "close": null,
+   "target_bar": null
+  },
+  {
+   "seq": 973,
+   "asset": "SOL",
+   "horizon": "4h",
+   "issued_at": "2026-11-24T00:00:00Z",
+   "low": 70.26846301128474,
+   "high": 73.66850245048438,
+   "price_at_issue": 72.03,
+   "bars": 4,
+   "outcome": "PENDING",
+   "close": null,
+   "target_bar": null
+  },
+  {
+   "seq": 965,
+   "asset": "ETH",
+   "horizon": "24h",
+   "issued_at": "2026-11-24T00:00:00Z",
+   "low": 1617.712071811396,
+   "high": 1792.894954701746,
+   "price_at_issue": 1710.65,
+   "bars": 24,
+   "outcome": "PENDING",
+   "close": null,
+   "target_bar": null
+  },
+  {
+   "seq": 964,
+   "asset": "ETH",
+   "horizon": "4h",
+   "issued_at": "2026-11-24T00:00:00Z",
+   "low": 1677.1961194619835,
+   "high": 1742.6466835950532,
+   "price_at_issue": 1710.65,
+   "bars": 4,
+   "outcome": "PENDING",
+   "close": null,
+   "target_bar": null
+  },
+  {
+   "seq": 956,
+   "asset": "BTC",
+   "horizon": "24h",
+   "issued_at": "2026-11-24T00:00:00Z",
+   "low": 59002.40878120725,
+   "high": 63331.518453121986,
+   "price_at_issue": 61270.93,
+   "bars": 24,
+   "outcome": "PENDING",
+   "close": null,
+   "target_bar": null
+  },
+  {
+   "seq": 955,
+   "asset": "BTC",
+   "horizon": "4h",
+   "issued_at": "2026-11-24T00:00:00Z",
+   "low": 60413.74434079777,
+   "high": 62031.5222331084,
+   "price_at_issue": 61270.93,
+   "bars": 4,
+   "outcome": "PENDING",
+   "close": null,
+   "target_bar": null
+  },
+  {
    "seq": 953,
    "asset": "XAU",
    "horizon": "4h",
@@ -1195,9 +1343,9 @@
    "high": 3667.8790161486477,
    "price_at_issue": 3641.69877,
    "bars": 4,
-   "outcome": "PENDING",
-   "close": null,
-   "target_bar": null
+   "outcome": "INSIDE",
+   "close": 3631.1886,
+   "target_bar": "2026-11-23T23:00:00Z"
   },
   {
    "seq": 951,
@@ -1208,9 +1356,9 @@
    "high": 75.05508203767899,
    "price_at_issue": 73.1,
    "bars": 4,
-   "outcome": "PENDING",
-   "close": null,
-   "target_bar": null
+   "outcome": "INSIDE",
+   "close": 72.03,
+   "target_bar": "2026-11-23T23:00:00Z"
   },
   {
    "seq": 945,
@@ -1221,9 +1369,9 @@
    "high": 1771.1938496022885,
    "price_at_issue": 1731.84,
    "bars": 4,
-   "outcome": "PENDING",
-   "close": null,
-   "target_bar": null
+   "outcome": "INSIDE",
+   "close": 1710.65,
+   "target_bar": "2026-11-23T23:00:00Z"
   },
   {
    "seq": 939,
@@ -1234,9 +1382,9 @@
    "high": 62416.57682242274,
    "price_at_issue": 61257.77,
    "bars": 4,
-   "outcome": "PENDING",
-   "close": null,
-   "target_bar": null
+   "outcome": "INSIDE",
+   "close": 61270.93,
+   "target_bar": "2026-11-23T23:00:00Z"
   },
   {
    "seq": 937,
@@ -1468,9 +1616,9 @@
    "high": 3665.821580580422,
    "price_at_issue": 3583.17307,
    "bars": 23,
-   "outcome": "PENDING",
-   "close": null,
-   "target_bar": null
+   "outcome": "INSIDE",
+   "close": 3634.585,
+   "target_bar": "2026-11-23T22:00:00Z"
   },
   {
    "seq": 841,
@@ -1507,9 +1655,9 @@
    "high": 73.48694813061607,
    "price_at_issue": 70.73,
    "bars": 24,
-   "outcome": "PENDING",
-   "close": null,
-   "target_bar": null
+   "outcome": "INSIDE",
+   "close": 72.03,
+   "target_bar": "2026-11-23T23:00:00Z"
   },
   {
    "seq": 835,
@@ -1546,9 +1694,9 @@
    "high": 1786.4993529174203,
    "price_at_issue": 1724.33,
    "bars": 24,
-   "outcome": "PENDING",
-   "close": null,
-   "target_bar": null
+   "outcome": "INSIDE",
+   "close": 1710.65,
+   "target_bar": "2026-11-23T23:00:00Z"
   },
   {
    "seq": 825,
@@ -1585,9 +1733,9 @@
    "high": 63317.702399396505,
    "price_at_issue": 61271.08,
    "bars": 24,
-   "outcome": "PENDING",
-   "close": null,
-   "target_bar": null
+   "outcome": "INSIDE",
+   "close": 61270.93,
+   "target_bar": "2026-11-23T23:00:00Z"
   },
   {
    "seq": 815,
@@ -3660,117 +3808,117 @@
  "hilo": {
   "BTC": {
    "4h": {
-    "recorded": 43,
-    "settled": 42,
+    "recorded": 44,
+    "settled": 43,
     "m": {
-     "upper_exceeded": 0.119,
-     "lower_exceeded": 0.0952,
-     "inside": 0.8095,
-     "path_score": 7.6044,
-     "pinball_up": 0.32667,
-     "pinball_down": 0.21286
+     "upper_exceeded": 0.1163,
+     "lower_exceeded": 0.093,
+     "inside": 0.814,
+     "path_score": 7.5681,
+     "pinball_up": 0.32439,
+     "pinball_down": 0.21456
     },
     "b1": {
-     "upper_exceeded": 0.1429,
-     "lower_exceeded": 0.2381,
-     "inside": 0.6429,
-     "path_score": 8.7467,
-     "pinball_up": 0.33005,
-     "pinball_down": 0.3237
+     "upper_exceeded": 0.1395,
+     "lower_exceeded": 0.2326,
+     "inside": 0.6512,
+     "path_score": 8.6105,
+     "pinball_up": 0.32425,
+     "pinball_down": 0.31894
     },
     "b2": {
-     "upper_exceeded": 0.0952,
-     "lower_exceeded": 0.119,
-     "inside": 0.7857,
-     "path_score": 7.2008,
-     "pinball_up": 0.26236,
-     "pinball_down": 0.2368
+     "upper_exceeded": 0.093,
+     "lower_exceeded": 0.1163,
+     "inside": 0.7907,
+     "path_score": 7.1926,
+     "pinball_up": 0.2629,
+     "pinball_down": 0.2385
     }
    },
    "24h": {
-    "recorded": 43,
-    "settled": 37,
+    "recorded": 44,
+    "settled": 38,
     "m": {
-     "upper_exceeded": 0.1081,
-     "lower_exceeded": 0.2162,
-     "inside": 0.6757,
-     "path_score": 17.5177,
-     "pinball_up": 0.4039,
-     "pinball_down": 0.76514
+     "upper_exceeded": 0.1316,
+     "lower_exceeded": 0.2105,
+     "inside": 0.6579,
+     "path_score": 17.4371,
+     "pinball_up": 0.40248,
+     "pinball_down": 0.75606
     },
     "b1": {
-     "upper_exceeded": 0.2432,
-     "lower_exceeded": 0.3514,
-     "inside": 0.4595,
-     "path_score": 22.5759,
-     "pinball_up": 0.54903,
-     "pinball_down": 1.12582
+     "upper_exceeded": 0.2632,
+     "lower_exceeded": 0.3421,
+     "inside": 0.4474,
+     "path_score": 22.6742,
+     "pinball_up": 0.57985,
+     "pinball_down": 1.1024
     },
     "b2": {
      "upper_exceeded": 0.0,
-     "lower_exceeded": 0.2432,
-     "inside": 0.7568,
-     "path_score": 19.3493,
-     "pinball_up": 0.3887,
-     "pinball_down": 0.96349
+     "lower_exceeded": 0.2368,
+     "inside": 0.7632,
+     "path_score": 19.1366,
+     "pinball_up": 0.37936,
+     "pinball_down": 0.94913
     }
    }
   },
   "ETH": {
    "4h": {
-    "recorded": 43,
-    "settled": 42,
+    "recorded": 44,
+    "settled": 43,
     "m": {
-     "upper_exceeded": 0.119,
-     "lower_exceeded": 0.119,
-     "inside": 0.7619,
-     "path_score": 8.728,
-     "pinball_up": 0.35616,
-     "pinball_down": 0.26066
+     "upper_exceeded": 0.1163,
+     "lower_exceeded": 0.1163,
+     "inside": 0.7674,
+     "path_score": 8.6981,
+     "pinball_up": 0.3555,
+     "pinball_down": 0.25989
     },
     "b1": {
-     "upper_exceeded": 0.1429,
-     "lower_exceeded": 0.2143,
-     "inside": 0.6667,
-     "path_score": 10.0812,
-     "pinball_up": 0.3812,
-     "pinball_down": 0.37094
+     "upper_exceeded": 0.1395,
+     "lower_exceeded": 0.2093,
+     "inside": 0.6744,
+     "path_score": 9.9381,
+     "pinball_up": 0.37613,
+     "pinball_down": 0.36326
     },
     "b2": {
-     "upper_exceeded": 0.0714,
-     "lower_exceeded": 0.1905,
-     "inside": 0.7381,
-     "path_score": 8.847,
-     "pinball_up": 0.31737,
-     "pinball_down": 0.31136
+     "upper_exceeded": 0.0698,
+     "lower_exceeded": 0.186,
+     "inside": 0.7442,
+     "path_score": 8.8298,
+     "pinball_up": 0.31884,
+     "pinball_down": 0.30971
     }
    },
    "24h": {
-    "recorded": 43,
-    "settled": 37,
+    "recorded": 44,
+    "settled": 38,
     "m": {
-     "upper_exceeded": 0.0811,
-     "lower_exceeded": 0.1622,
-     "inside": 0.7568,
-     "path_score": 21.671,
-     "pinball_up": 0.50379,
-     "pinball_down": 0.97305
+     "upper_exceeded": 0.1053,
+     "lower_exceeded": 0.1579,
+     "inside": 0.7368,
+     "path_score": 21.7695,
+     "pinball_up": 0.52298,
+     "pinball_down": 0.95978
     },
     "b1": {
-     "upper_exceeded": 0.2162,
-     "lower_exceeded": 0.1892,
-     "inside": 0.5946,
-     "path_score": 23.4253,
-     "pinball_up": 0.56897,
-     "pinball_down": 1.08331
+     "upper_exceeded": 0.2368,
+     "lower_exceeded": 0.1842,
+     "inside": 0.5789,
+     "path_score": 23.6196,
+     "pinball_up": 0.60285,
+     "pinball_down": 1.06492
     },
     "b2": {
-     "upper_exceeded": 0.0541,
-     "lower_exceeded": 0.1892,
-     "inside": 0.7568,
-     "path_score": 24.4893,
-     "pinball_up": 0.47495,
-     "pinball_down": 1.28373
+     "upper_exceeded": 0.0789,
+     "lower_exceeded": 0.1842,
+     "inside": 0.7368,
+     "path_score": 24.4668,
+     "pinball_up": 0.49235,
+     "pinball_down": 1.26015
     }
    }
   }
@@ -3784,7 +3932,7 @@
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
-     "ledger-action": 42,
+     "ledger-action": 43,
      "server": 1
     },
     "missed_last": []
@@ -3795,7 +3943,7 @@
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
-     "ledger-action": 42,
+     "ledger-action": 43,
      "server": 1
     },
     "missed_last": []
@@ -3806,7 +3954,7 @@
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
-     "ledger-action": 42,
+     "ledger-action": 43,
      "server": 1
     },
     "missed_last": []
@@ -3817,7 +3965,7 @@
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
-     "ledger-action": 42,
+     "ledger-action": 43,
      "server": 1
     },
     "missed_last": []
@@ -3828,7 +3976,7 @@
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
-     "ledger-action": 28,
+     "ledger-action": 29,
      "server": 3
     },
     "missed_last": []
@@ -3839,7 +3987,7 @@
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
-     "ledger-action": 4,
+     "ledger-action": 5,
      "server": 1
     },
     "missed_last": []
@@ -3860,7 +4008,7 @@
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
-     "ledger-action": 42,
+     "ledger-action": 43,
      "server": 1
     },
     "missed_last": []
@@ -3871,7 +4019,7 @@
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
-     "ledger-action": 7
+     "ledger-action": 8
     },
     "missed_last": []
    },
@@ -3891,7 +4039,7 @@
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
-     "ledger-action": 42,
+     "ledger-action": 43,
      "server": 1
     },
     "missed_last": []
@@ -3902,7 +4050,7 @@
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
-     "ledger-action": 7
+     "ledger-action": 8
     },
     "missed_last": []
    },
@@ -3922,7 +4070,7 @@
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
-     "ledger-action": 42,
+     "ledger-action": 43,
      "server": 1
     },
     "missed_last": []
@@ -3933,7 +4081,7 @@
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
-     "ledger-action": 7
+     "ledger-action": 8
     },
     "missed_last": []
    },
@@ -3953,7 +4101,7 @@
   "version": "advice-0.1.0",
   "min_n": 20,
   "assets": {},
-  "recorded": 27
+  "recorded": 31
  },
  "assets": {
   "XAU": {
@@ -3978,11 +4126,11 @@
    "by_horizon": {},
    "by_model": {},
    "analysis": {
-    "days": 7,
-    "scored": 4,
+    "days": 8,
+    "scored": 5,
     "correct": 4,
-    "accuracy": 1.0,
-    "baseline_accuracy": 0.0
+    "accuracy": 0.8,
+    "baseline_accuracy": 0.2
    },
    "recent": []
   },
@@ -4008,7 +4156,7 @@
    "by_horizon": {},
    "by_model": {},
    "analysis": {
-    "days": 10,
+    "days": 11,
     "scored": 7,
     "correct": 4,
     "accuracy": 0.5714,
@@ -4038,11 +4186,11 @@
    "by_horizon": {},
    "by_model": {},
    "analysis": {
-    "days": 9,
-    "scored": 5,
+    "days": 10,
+    "scored": 6,
     "correct": 3,
-    "accuracy": 0.6,
-    "baseline_accuracy": 0.4
+    "accuracy": 0.5,
+    "baseline_accuracy": 0.3333
    },
    "recent": []
   },
@@ -4068,7 +4216,7 @@
    "by_horizon": {},
    "by_model": {},
    "analysis": {
-    "days": 10,
+    "days": 11,
     "scored": 7,
     "correct": 3,
     "accuracy": 0.4286,

@@ -1,25 +1,25 @@
 {
  "schema": "decision-state-2",
- "updated_at": "2026-11-23T23:00:45Z",
+ "updated_at": "2026-11-24T00:03:17Z",
  "assets": {
   "XAU": {
    "asset": "XAU",
    "price": {
-    "value": 3636.867,
-    "at": "2026-11-23T22:00:00Z"
+    "value": 3629.029,
+    "at": "2026-11-24T00:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
-    "recorded_at": "2026-11-23T00:01:04Z",
+    "recorded_at": "2026-11-24T00:03:16Z",
     "hours": {
      "down": [
-      3566.24,
-      3554.17
+      3611.87,
+      3592.43
      ],
      "likely": "NONE",
      "up": [
-      3620.96,
-      3636.23
+      3658.51,
+      3669.19
      ]
     },
     "week": {
@@ -33,7 +33,7 @@
     "stage": "FORECAST"
    },
    "signal": {
-    "id": "381153e9b78d",
+    "id": "8f54d961e364",
     "kind": "NO_EDGE"
    },
    "actions": {
@@ -52,7 +52,7 @@
      "advice": "NOTHING",
      "reason": "advice-0.1.0"
     },
-    "signal_id": "381153e9b78d"
+    "signal_id": "8f54d961e364"
    },
    "view": {
     "holder": {
@@ -78,32 +78,32 @@
     "ok": true,
     "reasons": []
    },
-   "signature": "de29e2e06909c306"
+   "signature": "f8459a634638373f"
   },
   "BTC": {
    "asset": "BTC",
    "price": {
-    "value": 61251.7,
-    "at": "2026-11-23T23:00:00Z"
+    "value": 61270.93,
+    "at": "2026-11-24T00:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
-    "recorded_at": "2026-11-23T00:01:04Z",
+    "recorded_at": "2026-11-24T00:03:16Z",
     "hours": {
      "down": [
-      59988.0,
-      58871.23
+      58911.11,
+      57798.55
      ],
      "likely": "NONE",
      "up": [
-      66435.48,
-      66957.49
+      66957.49,
+      67528.42
      ]
     },
     "week": {
      "down": [
       58348.7,
-      null
+      55130.0
      ],
      "likely": "NONE",
      "up": [
@@ -114,7 +114,7 @@
     "stage": "FORECAST"
    },
    "signal": {
-    "id": "e40bad1c1d5c",
+    "id": "fe2a3471ac68",
     "kind": "NO_EDGE"
    },
    "actions": {
@@ -133,7 +133,7 @@
      "advice": "NOTHING",
      "reason": "advice-0.1.0"
     },
-    "signal_id": "e40bad1c1d5c"
+    "signal_id": "fe2a3471ac68"
    },
    "view": {
     "holder": {
@@ -172,32 +172,32 @@
     "ok": true,
     "reasons": []
    },
-   "signature": "a2e06ad97e101010"
+   "signature": "bd61fb6fbe21a0a1"
   },
   "ETH": {
    "asset": "ETH",
    "price": {
-    "value": 1712.49,
-    "at": "2026-11-23T23:00:00Z"
+    "value": 1710.65,
+    "at": "2026-11-24T00:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
-    "recorded_at": "2026-11-23T00:01:04Z",
+    "recorded_at": "2026-11-24T00:03:16Z",
     "hours": {
      "down": [
-      1693.58,
-      1675.06
+      1624.92,
+      1548.44
      ],
      "likely": "NONE",
      "up": [
-      1743.1,
-      1822.34
+      1985.42,
+      2006.0
      ]
     },
     "week": {
      "down": [
-      1508.84,
-      null
+      1538.0,
+      1508.84
      ],
      "likely": "NONE",
      "up": [
@@ -208,7 +208,7 @@
     "stage": "FORECAST"
    },
    "signal": {
-    "id": "561d5a50165a",
+    "id": "709d0e99b3ba",
     "kind": "NO_EDGE"
    },
    "actions": {
@@ -227,7 +227,7 @@
      "advice": "NOTHING",
      "reason": "advice-0.1.0"
     },
-    "signal_id": "561d5a50165a"
+    "signal_id": "709d0e99b3ba"
    },
    "view": {
     "holder": {
@@ -253,43 +253,43 @@
     "ok": true,
     "reasons": []
    },
-   "signature": "181678396b42c757"
+   "signature": "6f37984b6fdba351"
   },
   "SOL": {
    "asset": "SOL",
    "price": {
-    "value": 71.91,
-    "at": "2026-11-23T23:00:00Z"
+    "value": 72.03,
+    "at": "2026-11-24T00:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
-    "recorded_at": "2026-11-23T00:01:04Z",
+    "recorded_at": "2026-11-24T00:03:16Z",
     "hours": {
      "down": [
-      69.2,
-      68.65
+      65.95,
+      64.9
      ],
      "likely": "NONE",
      "up": [
-      74.93,
-      76.77
+      79.68,
+      80.54
      ]
     },
     "week": {
      "down": [
-      67.41,
-      64.04
+      70.58,
+      66.14
      ],
      "likely": "NONE",
      "up": [
       75.78,
-      82.96
+      78.09
      ]
     },
     "stage": "FORECAST"
    },
    "signal": {
-    "id": "74413c635dbf",
+    "id": "3aac3b7f5deb",
     "kind": "NO_EDGE"
    },
    "actions": {
@@ -308,7 +308,7 @@
      "advice": "NOTHING",
      "reason": "advice-0.1.0"
     },
-    "signal_id": "74413c635dbf"
+    "signal_id": "3aac3b7f5deb"
    },
    "view": {
     "holder": {
@@ -334,13 +334,13 @@
     "ok": true,
     "reasons": []
    },
-   "signature": "0634d80d0f4c0a77"
+   "signature": "d01dcd15805927c4"
   },
   "PAXG": {
    "asset": "PAXG",
    "price": {
-    "value": 3630.18,
-    "at": "2026-11-23T23:00:00Z"
+    "value": 3626.28,
+    "at": "2026-11-24T00:00:00Z"
    },
    "scenario": null,
    "signal": null,
