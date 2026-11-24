@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "updated_at": "2026-11-24T02:00:41Z",
- "chain_head": "929db6f72195689f21fddb569620f6fe40203fc27aeb8ccc47cbed6bdd9adacf",
- "lines": 1011,
+ "updated_at": "2026-11-24T02:34:08Z",
+ "chain_head": "aef68d1adc18965b34a6d3a1983f933e35504ac1fa58d11f938307ac9b4926f8",
+ "lines": 1014,
  "tracking_since": "2026-11-16T02:48:38Z",
  "days_tracked": 7,
  "recommendations": {
@@ -566,113 +566,113 @@
    "XAU": {
     "CASH_BUY_DIP": {
      "all": {
-      "scenarios": 2,
+      "scenarios": 3,
       "triggered": 2,
-      "not_triggered": 0,
+      "not_triggered": 1,
       "wins": 1,
       "losses": 1,
       "avg_r": 2.256,
-      "avg_return_pct": 0.4005,
+      "avg_return_pct": 0.267,
       "total_return_pct": 0.801,
       "max_drawdown_pct": 0.2821,
-      "beat_reference_share": 1.0
+      "beat_reference_share": 0.6667
      },
      "model:path-mlogit-0.2.0": {
-      "scenarios": 2,
+      "scenarios": 3,
       "triggered": 2,
-      "not_triggered": 0,
+      "not_triggered": 1,
       "wins": 1,
       "losses": 1,
       "avg_r": 2.256,
-      "avg_return_pct": 0.4005,
+      "avg_return_pct": 0.267,
       "total_return_pct": 0.801,
       "max_drawdown_pct": 0.2821,
-      "beat_reference_share": 1.0
+      "beat_reference_share": 0.6667
      },
      "bias:DOWN": {
-      "scenarios": 2,
+      "scenarios": 3,
       "triggered": 2,
-      "not_triggered": 0,
+      "not_triggered": 1,
       "wins": 1,
       "losses": 1,
       "avg_r": 2.256,
-      "avg_return_pct": 0.4005,
+      "avg_return_pct": 0.267,
       "total_return_pct": 0.801,
       "max_drawdown_pct": 0.2821,
-      "beat_reference_share": 1.0
+      "beat_reference_share": 0.6667
      }
     },
     "CASH_WAIT_LOWER": {
      "all": {
-      "scenarios": 2,
+      "scenarios": 3,
       "triggered": 1,
-      "not_triggered": 1,
+      "not_triggered": 2,
       "wins": 1,
       "losses": 0,
       "avg_r": null,
-      "avg_return_pct": 0.2766,
-      "total_return_pct": 0.5531,
-      "max_drawdown_pct": 0.0223,
-      "beat_reference_share": 0.5
+      "avg_return_pct": -0.6492,
+      "total_return_pct": -1.9476,
+      "max_drawdown_pct": 2.5007,
+      "beat_reference_share": 0.3333
      },
      "model:path-mlogit-0.2.0": {
-      "scenarios": 2,
+      "scenarios": 3,
       "triggered": 1,
-      "not_triggered": 1,
+      "not_triggered": 2,
       "wins": 1,
       "losses": 0,
       "avg_r": null,
-      "avg_return_pct": 0.2766,
-      "total_return_pct": 0.5531,
-      "max_drawdown_pct": 0.0223,
-      "beat_reference_share": 0.5
+      "avg_return_pct": -0.6492,
+      "total_return_pct": -1.9476,
+      "max_drawdown_pct": 2.5007,
+      "beat_reference_share": 0.3333
      },
      "bias:DOWN": {
-      "scenarios": 2,
+      "scenarios": 3,
       "triggered": 1,
-      "not_triggered": 1,
+      "not_triggered": 2,
       "wins": 1,
       "losses": 0,
       "avg_r": null,
-      "avg_return_pct": 0.2766,
-      "total_return_pct": 0.5531,
-      "max_drawdown_pct": 0.0223,
-      "beat_reference_share": 0.5
+      "avg_return_pct": -0.6492,
+      "total_return_pct": -1.9476,
+      "max_drawdown_pct": 2.5007,
+      "beat_reference_share": 0.3333
      }
     },
     "HOLD_SELL_REBUY": {
      "all": {
-      "scenarios": 2,
+      "scenarios": 3,
       "triggered": 1,
-      "not_triggered": 1,
+      "not_triggered": 2,
       "wins": 0,
       "losses": 1,
       "avg_r": null,
-      "avg_return_pct": -0.0234,
+      "avg_return_pct": -0.0156,
       "total_return_pct": -0.0468,
       "max_drawdown_pct": 0.0468,
       "beat_reference_share": 0.0
      },
      "model:path-mlogit-0.2.0": {
-      "scenarios": 2,
+      "scenarios": 3,
       "triggered": 1,
-      "not_triggered": 1,
+      "not_triggered": 2,
       "wins": 0,
       "losses": 1,
       "avg_r": null,
-      "avg_return_pct": -0.0234,
+      "avg_return_pct": -0.0156,
       "total_return_pct": -0.0468,
       "max_drawdown_pct": 0.0468,
       "beat_reference_share": 0.0
      },
      "bias:DOWN": {
-      "scenarios": 2,
+      "scenarios": 3,
       "triggered": 1,
-      "not_triggered": 1,
+      "not_triggered": 2,
       "wins": 0,
       "losses": 1,
       "avg_r": null,
-      "avg_return_pct": -0.0234,
+      "avg_return_pct": -0.0156,
       "total_return_pct": -0.0468,
       "max_drawdown_pct": 0.0468,
       "beat_reference_share": 0.0
