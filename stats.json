@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "updated_at": "2026-11-24T23:00:40Z",
- "chain_head": "beb6df0487c58f074767a359ec36127d2a11764b34adfbb7d30a17de481b5bf0",
- "lines": 1098,
+ "updated_at": "2026-11-24T23:15:47Z",
+ "chain_head": "8d59cb7159e63eeb46fce70706035c65487bb344bc2d1021c399456c9d3fc9a3",
+ "lines": 1099,
  "tracking_since": "2026-11-16T02:48:38Z",
  "days_tracked": 8,
  "recommendations": {
@@ -1243,13 +1243,13 @@
    },
    "24h": {
     "recorded": 6,
-    "settled": 5,
-    "inside": 3,
+    "settled": 6,
+    "inside": 4,
     "last": {
      "issued_at": "2026-11-24T00:00:00Z",
      "low": 3554.1815595869257,
      "high": 3706.9055104133554,
-     "outcome": "PENDING"
+     "outcome": "INSIDE"
     }
    },
    "1w": {
@@ -1535,9 +1535,9 @@
    "high": 3706.9055104133554,
    "price_at_issue": 3631.18856,
    "bars": 23,
-   "outcome": "PENDING",
-   "close": null,
-   "target_bar": null
+   "outcome": "INSIDE",
+   "close": 3557.823,
+   "target_bar": "2026-11-24T22:00:00Z"
   },
   {
    "seq": 978,
