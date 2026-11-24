@@ -16,3 +16,9 @@ Evaluation (fixed now):
 
 Expected reading: this change is a cost filter, not a claimed edge. It is judged by whether the remaining
 SELL_REBUY ideas stop losing to holding, not by how many ideas remain.
+
+## Addendum 2026-11-24 (owner-approved, app display only)
+When the tested «most likely» side shown on the same screen contradicts the idea (tested UP vs a sell-now idea,
+tested DOWN vs a buy-now idea), the app withdraws the idea and shows hold / wait. This filter is not applied to the
+ledger's beginner-ideas records, because the public snapshot does not carry the tested likely side. It is therefore
+not scored. If the snapshot later carries it, a new PREREG will define the comparison before any data is looked at.
