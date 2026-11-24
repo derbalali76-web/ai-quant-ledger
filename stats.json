@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-24T21:02:55Z",
+ "updated_at": "2026-11-24T21:18:26Z",
  "chain_head": "beb6df0487c58f074767a359ec36127d2a11764b34adfbb7d30a17de481b5bf0",
  "lines": 1098,
  "tracking_since": "2026-11-16T02:48:38Z",
@@ -4223,8 +4223,8 @@
   "since": "2026-11-16T20:00:00Z",
   "cases": {
    "HILO BTC 4h": {
-    "expected": 48,
-    "recorded": 48,
+    "expected": 49,
+    "recorded": 49,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4234,8 +4234,8 @@
     "missed_last": []
    },
    "HILO BTC 24h": {
-    "expected": 48,
-    "recorded": 48,
+    "expected": 49,
+    "recorded": 49,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4245,8 +4245,8 @@
     "missed_last": []
    },
    "HILO ETH 4h": {
-    "expected": 48,
-    "recorded": 48,
+    "expected": 49,
+    "recorded": 49,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4256,8 +4256,8 @@
     "missed_last": []
    },
    "HILO ETH 24h": {
-    "expected": 48,
-    "recorded": 48,
+    "expected": 49,
+    "recorded": 49,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4267,8 +4267,8 @@
     "missed_last": []
    },
    "RANGE XAU 4h": {
-    "expected": 36,
-    "recorded": 36,
+    "expected": 37,
+    "recorded": 37,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4299,8 +4299,8 @@
     "missed_last": []
    },
    "RANGE BTC 4h": {
-    "expected": 48,
-    "recorded": 48,
+    "expected": 49,
+    "recorded": 49,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4330,8 +4330,8 @@
     "missed_last": []
    },
    "RANGE ETH 4h": {
-    "expected": 48,
-    "recorded": 48,
+    "expected": 49,
+    "recorded": 49,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4361,8 +4361,8 @@
     "missed_last": []
    },
    "RANGE SOL 4h": {
-    "expected": 48,
-    "recorded": 48,
+    "expected": 49,
+    "recorded": 49,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
