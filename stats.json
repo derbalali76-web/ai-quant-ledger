@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "updated_at": "2026-11-24T18:00:37Z",
- "chain_head": "9bf0e42ee804b2e69c6bbe3ca860d2fdce84bb16c17b5544606c690838a57b81",
- "lines": 1078,
+ "updated_at": "2026-11-24T19:01:56Z",
+ "chain_head": "80aa21789d59e37f5f706eec125682c296c1ac23f1cb57793599daaa7f55b68f",
+ "lines": 1082,
  "tracking_since": "2026-11-16T02:48:38Z",
  "days_tracked": 8,
  "recommendations": {
@@ -4344,7 +4344,100 @@
  "advice": {
   "version": "advice-0.1.0",
   "min_n": 20,
-  "assets": {},
+  "assets": {
+   "XAU": {
+    "hold": {
+     "NOTHING": {
+      "n": 1,
+      "wins": 0,
+      "weeks": 1,
+      "mean": 0.0,
+      "win_rate": 0.0,
+      "verdict": null
+     }
+    },
+    "cash": {
+     "NOTHING": {
+      "n": 1,
+      "wins": 0,
+      "weeks": 1,
+      "mean": 0.0,
+      "win_rate": 0.0,
+      "ref_buy_hold_mean": -7.7464,
+      "verdict": null
+     }
+    }
+   },
+   "BTC": {
+    "hold": {
+     "NOTHING": {
+      "n": 1,
+      "wins": 0,
+      "weeks": 1,
+      "mean": 0.0,
+      "win_rate": 0.0,
+      "verdict": null
+     }
+    },
+    "cash": {
+     "NOTHING": {
+      "n": 1,
+      "wins": 0,
+      "weeks": 1,
+      "mean": 0.0,
+      "win_rate": 0.0,
+      "ref_buy_hold_mean": -5.9286,
+      "verdict": null
+     }
+    }
+   },
+   "ETH": {
+    "hold": {
+     "NOTHING": {
+      "n": 1,
+      "wins": 0,
+      "weeks": 1,
+      "mean": 0.0,
+      "win_rate": 0.0,
+      "verdict": null
+     }
+    },
+    "cash": {
+     "NOTHING": {
+      "n": 1,
+      "wins": 0,
+      "weeks": 1,
+      "mean": 0.0,
+      "win_rate": 0.0,
+      "ref_buy_hold_mean": -5.4541,
+      "verdict": null
+     }
+    }
+   },
+   "SOL": {
+    "hold": {
+     "NOTHING": {
+      "n": 1,
+      "wins": 0,
+      "weeks": 1,
+      "mean": 0.0,
+      "win_rate": 0.0,
+      "verdict": null
+     }
+    },
+    "cash": {
+     "NOTHING": {
+      "n": 1,
+      "wins": 0,
+      "weeks": 1,
+      "mean": 0.0,
+      "win_rate": 0.0,
+      "ref_buy_hold_mean": -3.6781,
+      "verdict": null
+     }
+    }
+   }
+  },
   "recorded": 31
  },
  "assets": {
@@ -4380,7 +4473,7 @@
   },
   "BTC": {
    "tracking_since": "2026-11-14T18:16:24Z",
-   "days_tracked": 9,
+   "days_tracked": 10,
    "recommendations": {
     "completed": 0,
     "wins": 0,
@@ -4440,7 +4533,7 @@
   },
   "SOL": {
    "tracking_since": "2026-11-14T18:16:24Z",
-   "days_tracked": 9,
+   "days_tracked": 10,
    "recommendations": {
     "completed": 0,
     "wins": 0,
