@@ -1,30 +1,32 @@
 {
- "checked_at": "2026-11-25T11:00:44+00:00",
+ "checked_at": "2026-11-25T12:00:49+00:00",
  "assets": {
   "XAU": {
    "ok": true,
    "problems": [],
-   "as_of": "2026-11-25T10:56:21.761476+00:00",
+   "as_of": "2026-11-25T11:56:57.062712+00:00",
    "health": "OK"
   },
   "BTC": {
    "ok": true,
    "problems": [],
-   "as_of": "2026-11-25T11:00:26.198120+00:00",
+   "as_of": "2026-11-25T12:00:24.263522+00:00",
    "health": "WARN"
   },
   "ETH": {
    "ok": true,
    "problems": [],
-   "as_of": "2026-11-25T11:00:33.091258+00:00",
+   "as_of": "2026-11-25T12:00:33.956018+00:00",
    "health": "WARN"
   },
   "SOL": {
    "ok": true,
    "problems": [],
-   "as_of": "2026-11-25T11:00:39.401115+00:00",
+   "as_of": "2026-11-25T11:59:51.557040+00:00",
    "health": "WARN"
   }
  },
- "record": []
+ "record": [
+  "record: server and independent issuer disagree on RANGE XAU 4h 2026-11-25T12:00:00Z by 0.368 % (the first recorded value stands)"
+ ]
 }
