@@ -1,6 +1,6 @@
 {
  "version": "beginner-ideas-0.2",
- "ideas": 32,
+ "ideas": 40,
  "scored": 8,
  "by_kind": {
   "BUY_NOW": {
@@ -56,8 +56,8 @@
  },
  "sell_rebuy_rose_no_return": 1.0,
  "last_run": {
-  "at": "2026-11-25T10:02:45Z",
-  "added": 0,
+  "at": "2026-11-25T11:00:44Z",
+  "added": 8,
   "scored": 0,
   "trend_in_snapshot": true
  }
