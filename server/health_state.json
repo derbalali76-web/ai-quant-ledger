@@ -1,23 +1,31 @@
 {
- "updated_at": "2026-11-25T18:00:16Z",
+ "updated_at": "2026-11-25T19:00:17Z",
  "observed_since": "2026-11-24T08:00:19Z",
- "restarts": 1,
+ "restarts": 2,
  "restarts_per_day": {
-  "2026-11-24": 1
+  "2026-11-24": 1,
+  "2026-11-25": 1
  },
  "down_events": 0,
  "memory_alerts": 4,
  "last": {
   "data": {
-   "id": "96156963c8c0",
-   "peak_mb": 492.6,
-   "rss_mb": 416.1
+   "app_version": "0.3.0",
+   "id": "37cd9ca60eba",
+   "latency_s": 0.4,
+   "memory_mb": {
+    "peak": 323.2,
+    "rss": 297.9
+   },
+   "previous": "96156963c8c0",
+   "started_at": "2026-11-25T18:23:25.599300+00:00",
+   "uptime_s": 2212
   },
-  "hash": "f934625253df7a3cb03ad91b204b9cd94dcf44ba025e0a7e22ee8e3a5da14601",
-  "kind": "MEMORY",
-  "prev": "a60c31b1169d5de24a2024d63a254753728f7052a2cee1679c83ab2493aae14f",
-  "recorded_at": "2026-11-25T18:00:16Z",
-  "seq": 6
+  "hash": "d55cfb2b71011f447f8dc90f7564cd79eca9767de14e5de76e546a45c066a35b",
+  "kind": "BOOT",
+  "prev": "f934625253df7a3cb03ad91b204b9cd94dcf44ba025e0a7e22ee8e3a5da14601",
+  "recorded_at": "2026-11-25T19:00:17Z",
+  "seq": 7
  },
  "chain_ok": true
 }
