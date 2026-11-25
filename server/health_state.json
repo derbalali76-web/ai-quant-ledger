@@ -1,23 +1,23 @@
 {
- "updated_at": "2026-11-25T17:00:16Z",
+ "updated_at": "2026-11-25T18:00:16Z",
  "observed_since": "2026-11-24T08:00:19Z",
  "restarts": 1,
  "restarts_per_day": {
   "2026-11-24": 1
  },
  "down_events": 0,
- "memory_alerts": 3,
+ "memory_alerts": 4,
  "last": {
   "data": {
    "id": "96156963c8c0",
    "peak_mb": 492.6,
-   "rss_mb": 411.8
+   "rss_mb": 416.1
   },
-  "hash": "a60c31b1169d5de24a2024d63a254753728f7052a2cee1679c83ab2493aae14f",
+  "hash": "f934625253df7a3cb03ad91b204b9cd94dcf44ba025e0a7e22ee8e3a5da14601",
   "kind": "MEMORY",
-  "prev": "fda4a7f7cf1a394434d84e900932f2a5ec614f737229149e9cd2a185b13d1414",
-  "recorded_at": "2026-11-25T17:00:16Z",
-  "seq": 5
+  "prev": "a60c31b1169d5de24a2024d63a254753728f7052a2cee1679c83ab2493aae14f",
+  "recorded_at": "2026-11-25T18:00:16Z",
+  "seq": 6
  },
  "chain_ok": true
 }
