@@ -1,12 +1,12 @@
 {
  "schema": "decision-state-2",
- "updated_at": "2026-11-25T15:00:49Z",
+ "updated_at": "2026-11-25T15:42:04Z",
  "assets": {
   "XAU": {
    "asset": "XAU",
    "price": {
-    "value": 3467.033,
-    "at": "2026-11-25T14:00:00Z"
+    "value": 3468.544,
+    "at": "2026-11-25T15:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
