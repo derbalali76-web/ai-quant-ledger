@@ -3,11 +3,11 @@
  "rule": "te-0.2.0/H1_q0.1_E5d",
  "asset": "BTC",
  "experimental": true,
- "updated_at": "2026-11-25T15:41:45Z",
+ "updated_at": "2026-11-25T16:04:02Z",
  "started_at": "2026-11-18T16:00:00Z",
- "price": 57992.01,
- "last_scan": "2026-11-25T12:00:00Z",
- "scans": 42,
+ "price": 58344.01,
+ "last_scan": "2026-11-25T16:00:00Z",
+ "scans": 43,
  "active": [],
  "last_closed": {
   "costs": {
