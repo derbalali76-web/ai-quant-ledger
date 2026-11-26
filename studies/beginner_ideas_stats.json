@@ -1,6 +1,6 @@
 {
  "version": "beginner-ideas-0.3",
- "ideas": 40,
+ "ideas": 48,
  "scored": 16,
  "scored_current_version": 0,
  "by_kind": {},
@@ -106,8 +106,8 @@
   }
  },
  "last_run": {
-  "at": "2026-11-26T10:04:03Z",
-  "added": 0,
+  "at": "2026-11-26T11:00:47Z",
+  "added": 8,
   "scored": 0,
   "trend_in_snapshot": true
  }
