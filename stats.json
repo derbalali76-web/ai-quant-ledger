@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "updated_at": "2026-11-26T00:01:19Z",
- "chain_head": "8a314e3412f4f15c1c5a667a9c14e34cff90a2f165cb5fcb50a741b6d795ab01",
- "lines": 1285,
+ "updated_at": "2026-11-26T00:27:45Z",
+ "chain_head": "08dfd3758989236e8ca5fa8efca08de1b708d588555daece41dbe8c38735d0ff",
+ "lines": 1290,
  "tracking_since": "2026-11-16T02:48:38Z",
  "days_tracked": 9,
  "recommendations": {
@@ -24,11 +24,11 @@
  "by_horizon": {},
  "by_model": {},
  "analysis": {
-  "days": 9,
-  "scored": 5,
-  "correct": 4,
-  "accuracy": 0.8,
-  "baseline_accuracy": 0.2
+  "days": 10,
+  "scored": 6,
+  "correct": 5,
+  "accuracy": 0.8333,
+  "baseline_accuracy": 0.1667
  },
  "recent": [],
  "scenarios": {
@@ -719,6 +719,17 @@
  },
  "briefs": [
   {
+   "seq": 1286,
+   "asset": "XAU",
+   "date": "2026-11-26",
+   "bias": "SIDEWAYS",
+   "price": 3577.14,
+   "recorded_at": "2026-11-26T00:27:45Z",
+   "outcome": "PENDING",
+   "close": null,
+   "baseline_up_correct": null
+  },
+  {
    "seq": 1281,
    "asset": "SOL",
    "date": "2026-11-26",
@@ -758,9 +769,9 @@
    "bias": "DOWN",
    "price": 3555.02,
    "recorded_at": "2026-11-25T01:00:52Z",
-   "outcome": "PENDING",
-   "close": null,
-   "baseline_up_correct": null
+   "outcome": "CORRECT",
+   "close": 3547.531,
+   "baseline_up_correct": false
   },
   {
    "seq": 1137,
@@ -5096,11 +5107,11 @@
    "by_horizon": {},
    "by_model": {},
    "analysis": {
-    "days": 9,
-    "scored": 5,
-    "correct": 4,
-    "accuracy": 0.8,
-    "baseline_accuracy": 0.2
+    "days": 10,
+    "scored": 6,
+    "correct": 5,
+    "accuracy": 0.8333,
+    "baseline_accuracy": 0.1667
    },
    "recent": []
   },
