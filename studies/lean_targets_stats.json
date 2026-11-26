@@ -1,0 +1,12 @@
+{
+ "version": "lean-targets-0.1",
+ "statements": 10,
+ "settled": 0,
+ "by_horizon_direction": {},
+ "by_asset_horizon_direction": {},
+ "last_run": {
+  "at": "2026-11-26T03:03:40Z",
+  "added": 10,
+  "settled": 0
+ }
+}

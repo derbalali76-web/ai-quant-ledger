@@ -1,10 +1,10 @@
 {
  "schema": 1,
- "updated_at": "2026-11-26T02:02:05Z",
+ "updated_at": "2026-11-26T03:03:39Z",
  "chain_head": "24c26d756c7c5870fb9c2bfa59daa1c14bf44b2789644f345d9f1635e6d37cf6",
  "lines": 1306,
  "tracking_since": "2026-11-16T02:48:38Z",
- "days_tracked": 9,
+ "days_tracked": 10,
  "recommendations": {
   "completed": 0,
   "wins": 0,
@@ -5087,7 +5087,7 @@
  "assets": {
   "XAU": {
    "tracking_since": "2026-11-16T02:48:38Z",
-   "days_tracked": 9,
+   "days_tracked": 10,
    "recommendations": {
     "completed": 0,
     "wins": 0,
