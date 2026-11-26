@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "updated_at": "2026-11-26T01:00:43Z",
- "chain_head": "08dfd3758989236e8ca5fa8efca08de1b708d588555daece41dbe8c38735d0ff",
- "lines": 1290,
+ "updated_at": "2026-11-26T02:02:05Z",
+ "chain_head": "24c26d756c7c5870fb9c2bfa59daa1c14bf44b2789644f345d9f1635e6d37cf6",
+ "lines": 1306,
  "tracking_since": "2026-11-16T02:48:38Z",
  "days_tracked": 9,
  "recommendations": {
@@ -38,40 +38,40 @@
    "BTC": {
     "CASH_BUY_DIP": {
      "all": {
-      "scenarios": 9,
-      "triggered": 3,
+      "scenarios": 10,
+      "triggered": 4,
       "not_triggered": 6,
       "wins": 2,
-      "losses": 1,
-      "avg_r": 0.959,
-      "avg_return_pct": 0.3893,
-      "total_return_pct": 3.5034,
-      "max_drawdown_pct": 1.2276,
-      "beat_reference_share": 1.0
+      "losses": 2,
+      "avg_r": 0.442,
+      "avg_return_pct": 0.1242,
+      "total_return_pct": 1.242,
+      "max_drawdown_pct": 2.2614,
+      "beat_reference_share": 0.9
      },
      "model:crypto-analysis-1.0.0": {
-      "scenarios": 9,
-      "triggered": 3,
+      "scenarios": 10,
+      "triggered": 4,
       "not_triggered": 6,
       "wins": 2,
-      "losses": 1,
-      "avg_r": 0.959,
-      "avg_return_pct": 0.3893,
-      "total_return_pct": 3.5034,
-      "max_drawdown_pct": 1.2276,
-      "beat_reference_share": 1.0
+      "losses": 2,
+      "avg_r": 0.442,
+      "avg_return_pct": 0.1242,
+      "total_return_pct": 1.242,
+      "max_drawdown_pct": 2.2614,
+      "beat_reference_share": 0.9
      },
      "bias:DOWN": {
-      "scenarios": 5,
-      "triggered": 2,
+      "scenarios": 6,
+      "triggered": 3,
       "not_triggered": 3,
       "wins": 1,
-      "losses": 1,
-      "avg_r": 0.257,
-      "avg_return_pct": -0.0975,
-      "total_return_pct": -0.4876,
-      "max_drawdown_pct": 1.2276,
-      "beat_reference_share": 1.0
+      "losses": 2,
+      "avg_r": -0.198,
+      "avg_return_pct": -0.4582,
+      "total_return_pct": -2.749,
+      "max_drawdown_pct": 3.489,
+      "beat_reference_share": 0.8333
      },
      "bias:SIDEWAYS": {
       "scenarios": 4,
@@ -88,40 +88,40 @@
     },
     "CASH_WAIT_LOWER": {
      "all": {
-      "scenarios": 9,
-      "triggered": 1,
+      "scenarios": 10,
+      "triggered": 2,
       "not_triggered": 8,
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
       "avg_r": null,
-      "avg_return_pct": 0.8718,
-      "total_return_pct": 7.8465,
+      "avg_return_pct": 1.1245,
+      "total_return_pct": 11.2451,
       "max_drawdown_pct": 1.9881,
-      "beat_reference_share": 0.6667
+      "beat_reference_share": 0.7
      },
      "model:crypto-analysis-1.0.0": {
-      "scenarios": 9,
-      "triggered": 1,
+      "scenarios": 10,
+      "triggered": 2,
       "not_triggered": 8,
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
       "avg_r": null,
-      "avg_return_pct": 0.8718,
-      "total_return_pct": 7.8465,
+      "avg_return_pct": 1.1245,
+      "total_return_pct": 11.2451,
       "max_drawdown_pct": 1.9881,
-      "beat_reference_share": 0.6667
+      "beat_reference_share": 0.7
      },
      "bias:DOWN": {
-      "scenarios": 5,
-      "triggered": 1,
+      "scenarios": 6,
+      "triggered": 2,
       "not_triggered": 4,
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
       "avg_r": null,
-      "avg_return_pct": 0.8999,
-      "total_return_pct": 4.4994,
+      "avg_return_pct": 1.3163,
+      "total_return_pct": 7.898,
       "max_drawdown_pct": 0.1097,
-      "beat_reference_share": 0.8
+      "beat_reference_share": 0.8333
      },
      "bias:SIDEWAYS": {
       "scenarios": 4,
@@ -138,40 +138,40 @@
     },
     "HOLD_SELL_REBUY": {
      "all": {
-      "scenarios": 9,
-      "triggered": 2,
+      "scenarios": 10,
+      "triggered": 3,
       "not_triggered": 7,
-      "wins": 0,
+      "wins": 1,
       "losses": 2,
       "avg_r": null,
-      "avg_return_pct": -0.156,
-      "total_return_pct": -1.404,
+      "avg_return_pct": -0.0053,
+      "total_return_pct": -0.0533,
       "max_drawdown_pct": 1.404,
-      "beat_reference_share": 0.0
+      "beat_reference_share": 0.1
      },
      "model:crypto-analysis-1.0.0": {
-      "scenarios": 9,
-      "triggered": 2,
+      "scenarios": 10,
+      "triggered": 3,
       "not_triggered": 7,
-      "wins": 0,
+      "wins": 1,
       "losses": 2,
       "avg_r": null,
-      "avg_return_pct": -0.156,
-      "total_return_pct": -1.404,
+      "avg_return_pct": -0.0053,
+      "total_return_pct": -0.0533,
       "max_drawdown_pct": 1.404,
-      "beat_reference_share": 0.0
+      "beat_reference_share": 0.1
      },
      "bias:DOWN": {
-      "scenarios": 5,
-      "triggered": 2,
+      "scenarios": 6,
+      "triggered": 3,
       "not_triggered": 3,
-      "wins": 0,
+      "wins": 1,
       "losses": 2,
       "avg_r": null,
-      "avg_return_pct": -0.2808,
-      "total_return_pct": -1.404,
+      "avg_return_pct": -0.0089,
+      "total_return_pct": -0.0533,
       "max_drawdown_pct": 1.404,
-      "beat_reference_share": 0.0
+      "beat_reference_share": 0.1667
      },
      "bias:SIDEWAYS": {
       "scenarios": 4,
@@ -190,40 +190,40 @@
    "SOL": {
     "CASH_BUY_DIP": {
      "all": {
-      "scenarios": 10,
-      "triggered": 3,
+      "scenarios": 11,
+      "triggered": 4,
       "not_triggered": 7,
       "wins": 1,
-      "losses": 2,
-      "avg_r": -0.526,
-      "avg_return_pct": -0.2392,
-      "total_return_pct": -2.3923,
-      "max_drawdown_pct": 4.1633,
-      "beat_reference_share": 0.5
+      "losses": 3,
+      "avg_r": -0.706,
+      "avg_return_pct": -0.3328,
+      "total_return_pct": -3.6611,
+      "max_drawdown_pct": 5.4321,
+      "beat_reference_share": 0.4545
      },
      "model:crypto-analysis-1.0.0": {
-      "scenarios": 10,
-      "triggered": 3,
+      "scenarios": 11,
+      "triggered": 4,
       "not_triggered": 7,
       "wins": 1,
-      "losses": 2,
-      "avg_r": -0.526,
-      "avg_return_pct": -0.2392,
-      "total_return_pct": -2.3923,
-      "max_drawdown_pct": 4.1633,
-      "beat_reference_share": 0.5
+      "losses": 3,
+      "avg_r": -0.706,
+      "avg_return_pct": -0.3328,
+      "total_return_pct": -3.6611,
+      "max_drawdown_pct": 5.4321,
+      "beat_reference_share": 0.4545
      },
      "bias:DOWN": {
-      "scenarios": 5,
-      "triggered": 3,
+      "scenarios": 6,
+      "triggered": 4,
       "not_triggered": 2,
       "wins": 1,
-      "losses": 2,
-      "avg_r": -0.526,
-      "avg_return_pct": -0.4785,
-      "total_return_pct": -2.3923,
-      "max_drawdown_pct": 4.1633,
-      "beat_reference_share": 0.4
+      "losses": 3,
+      "avg_r": -0.706,
+      "avg_return_pct": -0.6102,
+      "total_return_pct": -3.6611,
+      "max_drawdown_pct": 5.4321,
+      "beat_reference_share": 0.3333
      },
      "bias:UP": {
       "scenarios": 1,
@@ -252,40 +252,40 @@
     },
     "CASH_WAIT_LOWER": {
      "all": {
-      "scenarios": 10,
-      "triggered": 2,
+      "scenarios": 11,
+      "triggered": 3,
       "not_triggered": 8,
-      "wins": 2,
+      "wins": 3,
       "losses": 0,
       "avg_r": null,
-      "avg_return_pct": 1.0865,
-      "total_return_pct": 10.8646,
+      "avg_return_pct": 1.1442,
+      "total_return_pct": 12.5865,
       "max_drawdown_pct": 5.0763,
-      "beat_reference_share": 0.6
+      "beat_reference_share": 0.6364
      },
      "model:crypto-analysis-1.0.0": {
-      "scenarios": 10,
-      "triggered": 2,
+      "scenarios": 11,
+      "triggered": 3,
       "not_triggered": 8,
-      "wins": 2,
+      "wins": 3,
       "losses": 0,
       "avg_r": null,
-      "avg_return_pct": 1.0865,
-      "total_return_pct": 10.8646,
+      "avg_return_pct": 1.1442,
+      "total_return_pct": 12.5865,
       "max_drawdown_pct": 5.0763,
-      "beat_reference_share": 0.6
+      "beat_reference_share": 0.6364
      },
      "bias:DOWN": {
-      "scenarios": 5,
-      "triggered": 2,
+      "scenarios": 6,
+      "triggered": 3,
       "not_triggered": 3,
-      "wins": 2,
+      "wins": 3,
       "losses": 0,
       "avg_r": null,
-      "avg_return_pct": 1.2478,
-      "total_return_pct": 6.2391,
+      "avg_return_pct": 1.3268,
+      "total_return_pct": 7.961,
       "max_drawdown_pct": 5.0763,
-      "beat_reference_share": 0.6
+      "beat_reference_share": 0.6667
      },
      "bias:UP": {
       "scenarios": 1,
@@ -314,40 +314,40 @@
     },
     "HOLD_SELL_REBUY": {
      "all": {
-      "scenarios": 10,
-      "triggered": 2,
+      "scenarios": 11,
+      "triggered": 3,
       "not_triggered": 8,
-      "wins": 2,
+      "wins": 3,
       "losses": 0,
       "avg_r": null,
-      "avg_return_pct": 0.0493,
-      "total_return_pct": 0.4925,
+      "avg_return_pct": 0.0925,
+      "total_return_pct": 1.0174,
       "max_drawdown_pct": 0.0,
-      "beat_reference_share": 0.2
+      "beat_reference_share": 0.2727
      },
      "model:crypto-analysis-1.0.0": {
-      "scenarios": 10,
-      "triggered": 2,
+      "scenarios": 11,
+      "triggered": 3,
       "not_triggered": 8,
-      "wins": 2,
+      "wins": 3,
       "losses": 0,
       "avg_r": null,
-      "avg_return_pct": 0.0493,
-      "total_return_pct": 0.4925,
+      "avg_return_pct": 0.0925,
+      "total_return_pct": 1.0174,
       "max_drawdown_pct": 0.0,
-      "beat_reference_share": 0.2
+      "beat_reference_share": 0.2727
      },
      "bias:DOWN": {
-      "scenarios": 5,
-      "triggered": 2,
+      "scenarios": 6,
+      "triggered": 3,
       "not_triggered": 3,
-      "wins": 2,
+      "wins": 3,
       "losses": 0,
       "avg_r": null,
-      "avg_return_pct": 0.0985,
-      "total_return_pct": 0.4925,
+      "avg_return_pct": 0.1696,
+      "total_return_pct": 1.0174,
       "max_drawdown_pct": 0.0,
-      "beat_reference_share": 0.4
+      "beat_reference_share": 0.5
      },
      "bias:UP": {
       "scenarios": 1,
@@ -378,28 +378,28 @@
    "ETH": {
     "CASH_BUY_DIP": {
      "all": {
-      "scenarios": 10,
-      "triggered": 6,
+      "scenarios": 11,
+      "triggered": 7,
       "not_triggered": 4,
-      "wins": 5,
+      "wins": 6,
       "losses": 1,
-      "avg_r": 1.894,
-      "avg_return_pct": 1.1538,
-      "total_return_pct": 11.5375,
+      "avg_r": 1.897,
+      "avg_return_pct": 1.4226,
+      "total_return_pct": 15.6488,
       "max_drawdown_pct": 1.8065,
-      "beat_reference_share": 0.9
+      "beat_reference_share": 0.9091
      },
      "model:crypto-analysis-1.0.0": {
-      "scenarios": 10,
-      "triggered": 6,
+      "scenarios": 11,
+      "triggered": 7,
       "not_triggered": 4,
-      "wins": 5,
+      "wins": 6,
       "losses": 1,
-      "avg_r": 1.894,
-      "avg_return_pct": 1.1538,
-      "total_return_pct": 11.5375,
+      "avg_r": 1.897,
+      "avg_return_pct": 1.4226,
+      "total_return_pct": 15.6488,
       "max_drawdown_pct": 1.8065,
-      "beat_reference_share": 0.9
+      "beat_reference_share": 0.9091
      },
      "bias:DOWN": {
       "scenarios": 6,
@@ -414,16 +414,16 @@
       "beat_reference_share": 1.0
      },
      "bias:SIDEWAYS": {
-      "scenarios": 3,
-      "triggered": 3,
+      "scenarios": 4,
+      "triggered": 4,
       "not_triggered": 0,
-      "wins": 3,
+      "wins": 4,
       "losses": 0,
-      "avg_r": 2.325,
-      "avg_return_pct": 1.8631,
-      "total_return_pct": 5.5893,
+      "avg_r": 2.221,
+      "avg_return_pct": 2.4251,
+      "total_return_pct": 9.7006,
       "max_drawdown_pct": 0.0,
-      "beat_reference_share": 0.6667
+      "beat_reference_share": 0.75
      },
      "bias:UP": {
       "scenarios": 1,
@@ -440,28 +440,28 @@
     },
     "CASH_WAIT_LOWER": {
      "all": {
-      "scenarios": 10,
+      "scenarios": 11,
       "triggered": 1,
-      "not_triggered": 9,
+      "not_triggered": 10,
       "wins": 1,
       "losses": 0,
       "avg_r": null,
-      "avg_return_pct": 0.5797,
-      "total_return_pct": 5.7971,
+      "avg_return_pct": 0.4331,
+      "total_return_pct": 4.7638,
       "max_drawdown_pct": 5.9156,
-      "beat_reference_share": 0.8
+      "beat_reference_share": 0.7273
      },
      "model:crypto-analysis-1.0.0": {
-      "scenarios": 10,
+      "scenarios": 11,
       "triggered": 1,
-      "not_triggered": 9,
+      "not_triggered": 10,
       "wins": 1,
       "losses": 0,
       "avg_r": null,
-      "avg_return_pct": 0.5797,
-      "total_return_pct": 5.7971,
+      "avg_return_pct": 0.4331,
+      "total_return_pct": 4.7638,
       "max_drawdown_pct": 5.9156,
-      "beat_reference_share": 0.8
+      "beat_reference_share": 0.7273
      },
      "bias:DOWN": {
       "scenarios": 6,
@@ -476,16 +476,16 @@
       "beat_reference_share": 0.8333
      },
      "bias:SIDEWAYS": {
-      "scenarios": 3,
+      "scenarios": 4,
       "triggered": 0,
-      "not_triggered": 3,
+      "not_triggered": 4,
       "wins": 0,
       "losses": 0,
       "avg_r": null,
-      "avg_return_pct": 0.0205,
-      "total_return_pct": 0.0615,
-      "max_drawdown_pct": 2.1321,
-      "beat_reference_share": 0.6667
+      "avg_return_pct": -0.243,
+      "total_return_pct": -0.9718,
+      "max_drawdown_pct": 3.1654,
+      "beat_reference_share": 0.5
      },
      "bias:UP": {
       "scenarios": 1,
@@ -502,25 +502,25 @@
     },
     "HOLD_SELL_REBUY": {
      "all": {
-      "scenarios": 10,
+      "scenarios": 11,
       "triggered": 4,
-      "not_triggered": 6,
+      "not_triggered": 7,
       "wins": 0,
       "losses": 4,
       "avg_r": null,
-      "avg_return_pct": -0.6646,
+      "avg_return_pct": -0.6042,
       "total_return_pct": -6.6457,
       "max_drawdown_pct": 6.6457,
       "beat_reference_share": 0.0
      },
      "model:crypto-analysis-1.0.0": {
-      "scenarios": 10,
+      "scenarios": 11,
       "triggered": 4,
-      "not_triggered": 6,
+      "not_triggered": 7,
       "wins": 0,
       "losses": 4,
       "avg_r": null,
-      "avg_return_pct": -0.6646,
+      "avg_return_pct": -0.6042,
       "total_return_pct": -6.6457,
       "max_drawdown_pct": 6.6457,
       "beat_reference_share": 0.0
@@ -538,13 +538,13 @@
       "beat_reference_share": 0.0
      },
      "bias:SIDEWAYS": {
-      "scenarios": 3,
+      "scenarios": 4,
       "triggered": 2,
-      "not_triggered": 1,
+      "not_triggered": 2,
       "wins": 0,
       "losses": 2,
       "avg_r": null,
-      "avg_return_pct": -1.7711,
+      "avg_return_pct": -1.3283,
       "total_return_pct": -5.3133,
       "max_drawdown_pct": 5.3133,
       "beat_reference_share": 0.0
@@ -566,40 +566,40 @@
    "XAU": {
     "CASH_BUY_DIP": {
      "all": {
-      "scenarios": 4,
-      "triggered": 3,
+      "scenarios": 5,
+      "triggered": 4,
       "not_triggered": 1,
-      "wins": 1,
+      "wins": 2,
       "losses": 2,
-      "avg_r": 1.163,
-      "avg_return_pct": 0.0633,
-      "total_return_pct": 0.2532,
+      "avg_r": 1.972,
+      "avg_return_pct": 0.1454,
+      "total_return_pct": 0.7269,
       "max_drawdown_pct": 0.8299,
-      "beat_reference_share": 0.75
+      "beat_reference_share": 0.6
      },
      "model:path-mlogit-0.2.0": {
+      "scenarios": 5,
+      "triggered": 4,
+      "not_triggered": 1,
+      "wins": 2,
+      "losses": 2,
+      "avg_r": 1.972,
+      "avg_return_pct": 0.1454,
+      "total_return_pct": 0.7269,
+      "max_drawdown_pct": 0.8299,
+      "beat_reference_share": 0.6
+     },
+     "bias:DOWN": {
       "scenarios": 4,
       "triggered": 3,
       "not_triggered": 1,
-      "wins": 1,
-      "losses": 2,
-      "avg_r": 1.163,
-      "avg_return_pct": 0.0633,
-      "total_return_pct": 0.2532,
-      "max_drawdown_pct": 0.8299,
-      "beat_reference_share": 0.75
-     },
-     "bias:DOWN": {
-      "scenarios": 3,
-      "triggered": 2,
-      "not_triggered": 1,
-      "wins": 1,
+      "wins": 2,
       "losses": 1,
-      "avg_r": 2.256,
-      "avg_return_pct": 0.267,
-      "total_return_pct": 0.801,
+      "avg_r": 2.97,
+      "avg_return_pct": 0.3187,
+      "total_return_pct": 1.2747,
       "max_drawdown_pct": 0.2821,
-      "beat_reference_share": 0.6667
+      "beat_reference_share": 0.5
      },
      "bias:SIDEWAYS": {
       "scenarios": 1,
@@ -616,40 +616,40 @@
     },
     "CASH_WAIT_LOWER": {
      "all": {
-      "scenarios": 4,
-      "triggered": 2,
+      "scenarios": 5,
+      "triggered": 3,
       "not_triggered": 2,
-      "wins": 2,
+      "wins": 3,
       "losses": 0,
       "avg_r": null,
-      "avg_return_pct": -0.2201,
-      "total_return_pct": -0.8802,
+      "avg_return_pct": -0.116,
+      "total_return_pct": -0.5798,
       "max_drawdown_pct": 2.5007,
-      "beat_reference_share": 0.5
+      "beat_reference_share": 0.6
      },
      "model:path-mlogit-0.2.0": {
+      "scenarios": 5,
+      "triggered": 3,
+      "not_triggered": 2,
+      "wins": 3,
+      "losses": 0,
+      "avg_r": null,
+      "avg_return_pct": -0.116,
+      "total_return_pct": -0.5798,
+      "max_drawdown_pct": 2.5007,
+      "beat_reference_share": 0.6
+     },
+     "bias:DOWN": {
       "scenarios": 4,
       "triggered": 2,
       "not_triggered": 2,
       "wins": 2,
       "losses": 0,
       "avg_r": null,
-      "avg_return_pct": -0.2201,
-      "total_return_pct": -0.8802,
+      "avg_return_pct": -0.4118,
+      "total_return_pct": -1.6472,
       "max_drawdown_pct": 2.5007,
       "beat_reference_share": 0.5
-     },
-     "bias:DOWN": {
-      "scenarios": 3,
-      "triggered": 1,
-      "not_triggered": 2,
-      "wins": 1,
-      "losses": 0,
-      "avg_r": null,
-      "avg_return_pct": -0.6492,
-      "total_return_pct": -1.9476,
-      "max_drawdown_pct": 2.5007,
-      "beat_reference_share": 0.3333
      },
      "bias:SIDEWAYS": {
       "scenarios": 1,
@@ -666,40 +666,40 @@
     },
     "HOLD_SELL_REBUY": {
      "all": {
-      "scenarios": 4,
-      "triggered": 2,
+      "scenarios": 5,
+      "triggered": 3,
       "not_triggered": 2,
-      "wins": 0,
+      "wins": 1,
       "losses": 2,
       "avg_r": null,
-      "avg_return_pct": -0.017,
-      "total_return_pct": -0.0682,
+      "avg_return_pct": 0.0307,
+      "total_return_pct": 0.1535,
       "max_drawdown_pct": 0.0682,
-      "beat_reference_share": 0.0
+      "beat_reference_share": 0.2
      },
      "model:path-mlogit-0.2.0": {
+      "scenarios": 5,
+      "triggered": 3,
+      "not_triggered": 2,
+      "wins": 1,
+      "losses": 2,
+      "avg_r": null,
+      "avg_return_pct": 0.0307,
+      "total_return_pct": 0.1535,
+      "max_drawdown_pct": 0.0682,
+      "beat_reference_share": 0.2
+     },
+     "bias:DOWN": {
       "scenarios": 4,
       "triggered": 2,
       "not_triggered": 2,
-      "wins": 0,
-      "losses": 2,
-      "avg_r": null,
-      "avg_return_pct": -0.017,
-      "total_return_pct": -0.0682,
-      "max_drawdown_pct": 0.0682,
-      "beat_reference_share": 0.0
-     },
-     "bias:DOWN": {
-      "scenarios": 3,
-      "triggered": 1,
-      "not_triggered": 2,
-      "wins": 0,
+      "wins": 1,
       "losses": 1,
       "avg_r": null,
-      "avg_return_pct": -0.0156,
-      "total_return_pct": -0.0468,
+      "avg_return_pct": 0.0437,
+      "total_return_pct": 0.1749,
       "max_drawdown_pct": 0.0468,
-      "beat_reference_share": 0.0
+      "beat_reference_share": 0.25
      },
      "bias:SIDEWAYS": {
       "scenarios": 1,
@@ -4815,8 +4815,8 @@
   "since": "2026-11-16T20:00:00Z",
   "cases": {
    "HILO BTC 4h": {
-    "expected": 55,
-    "recorded": 55,
+    "expected": 56,
+    "recorded": 56,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4826,8 +4826,8 @@
     "missed_last": []
    },
    "HILO BTC 24h": {
-    "expected": 55,
-    "recorded": 55,
+    "expected": 56,
+    "recorded": 56,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4837,8 +4837,8 @@
     "missed_last": []
    },
    "HILO ETH 4h": {
-    "expected": 55,
-    "recorded": 55,
+    "expected": 56,
+    "recorded": 56,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4848,8 +4848,8 @@
     "missed_last": []
    },
    "HILO ETH 24h": {
-    "expected": 55,
-    "recorded": 55,
+    "expected": 56,
+    "recorded": 56,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4859,8 +4859,8 @@
     "missed_last": []
    },
    "RANGE XAU 4h": {
-    "expected": 43,
-    "recorded": 43,
+    "expected": 44,
+    "recorded": 44,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4870,8 +4870,8 @@
     "missed_last": []
    },
    "RANGE XAU 24h": {
-    "expected": 7,
-    "recorded": 7,
+    "expected": 8,
+    "recorded": 8,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4891,8 +4891,8 @@
     "missed_last": []
    },
    "RANGE BTC 4h": {
-    "expected": 55,
-    "recorded": 55,
+    "expected": 56,
+    "recorded": 56,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4902,8 +4902,8 @@
     "missed_last": []
    },
    "RANGE BTC 24h": {
-    "expected": 9,
-    "recorded": 9,
+    "expected": 10,
+    "recorded": 10,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4922,8 +4922,8 @@
     "missed_last": []
    },
    "RANGE ETH 4h": {
-    "expected": 55,
-    "recorded": 55,
+    "expected": 56,
+    "recorded": 56,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4933,8 +4933,8 @@
     "missed_last": []
    },
    "RANGE ETH 24h": {
-    "expected": 9,
-    "recorded": 9,
+    "expected": 10,
+    "recorded": 10,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4953,8 +4953,8 @@
     "missed_last": []
    },
    "RANGE SOL 4h": {
-    "expected": 55,
-    "recorded": 55,
+    "expected": 56,
+    "recorded": 56,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4964,8 +4964,8 @@
     "missed_last": []
    },
    "RANGE SOL 24h": {
-    "expected": 9,
-    "recorded": 9,
+    "expected": 10,
+    "recorded": 10,
     "rate": 1.0,
     "missed_24h": 0,
     "by_source": {
@@ -4992,7 +4992,7 @@
    "XAU": {
     "hold": {
      "NOTHING": {
-      "n": 2,
+      "n": 3,
       "wins": 0,
       "weeks": 1,
       "mean": 0.0,
@@ -5002,12 +5002,12 @@
     },
     "cash": {
      "NOTHING": {
-      "n": 2,
+      "n": 3,
       "wins": 0,
       "weeks": 1,
       "mean": 0.0,
       "win_rate": 0.0,
-      "ref_buy_hold_mean": -7.7964,
+      "ref_buy_hold_mean": -6.6502,
       "verdict": null
      }
     }
@@ -5015,7 +5015,7 @@
    "BTC": {
     "hold": {
      "NOTHING": {
-      "n": 2,
+      "n": 3,
       "wins": 0,
       "weeks": 1,
       "mean": 0.0,
@@ -5025,12 +5025,12 @@
     },
     "cash": {
      "NOTHING": {
-      "n": 2,
+      "n": 3,
       "wins": 0,
       "weeks": 1,
       "mean": 0.0,
       "win_rate": 0.0,
-      "ref_buy_hold_mean": -7.1434,
+      "ref_buy_hold_mean": -6.1827,
       "verdict": null
      }
     }
@@ -5038,7 +5038,7 @@
    "ETH": {
     "hold": {
      "NOTHING": {
-      "n": 2,
+      "n": 3,
       "wins": 0,
       "weeks": 1,
       "mean": 0.0,
@@ -5048,12 +5048,12 @@
     },
     "cash": {
      "NOTHING": {
-      "n": 2,
+      "n": 3,
       "wins": 0,
       "weeks": 1,
       "mean": 0.0,
       "win_rate": 0.0,
-      "ref_buy_hold_mean": -6.9839,
+      "ref_buy_hold_mean": -6.2245,
       "verdict": null
      }
     }
@@ -5061,7 +5061,7 @@
    "SOL": {
     "hold": {
      "NOTHING": {
-      "n": 2,
+      "n": 3,
       "wins": 0,
       "weeks": 1,
       "mean": 0.0,
@@ -5071,12 +5071,12 @@
     },
     "cash": {
      "NOTHING": {
-      "n": 2,
+      "n": 3,
       "wins": 0,
       "weeks": 1,
       "mean": 0.0,
       "win_rate": 0.0,
-      "ref_buy_hold_mean": -5.6481,
+      "ref_buy_hold_mean": -5.1815,
       "verdict": null
      }
     }
