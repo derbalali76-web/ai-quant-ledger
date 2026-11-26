@@ -1,7 +1,7 @@
 {
  "version": "beginner-ideas-0.3",
  "ideas": 48,
- "scored": 16,
+ "scored": 24,
  "scored_current_version": 0,
  "by_kind": {},
  "by_kind_horizon": {},
@@ -62,12 +62,12 @@
    }
   },
   "beginner-ideas-0.2": {
-   "scored": 8,
+   "scored": 16,
    "by_kind": {
     "HOLD_SELL_ABOVE": {
-     "n": 2,
-     "mean_edge_pct": -2.817,
-     "success_rate": 0.0,
+     "n": 6,
+     "mean_edge_pct": 0.748,
+     "success_rate": 0.667,
      "verdict": "INSUFFICIENT"
     },
     "SELL_REBUY": {
@@ -77,17 +77,17 @@
      "verdict": "INSUFFICIENT"
     },
     "WAIT": {
-     "n": 4,
-     "mean_edge_pct": 2.767,
-     "success_rate": 1.0,
+     "n": 8,
+     "mean_edge_pct": 0.243,
+     "success_rate": 0.5,
      "verdict": "INSUFFICIENT"
     }
    },
    "by_kind_horizon": {
     "HOLD_SELL_ABOVE|HOURS": {
-     "n": 2,
-     "mean_edge_pct": -2.817,
-     "success_rate": 0.0,
+     "n": 6,
+     "mean_edge_pct": 0.748,
+     "success_rate": 0.667,
      "verdict": "INSUFFICIENT"
     },
     "SELL_REBUY|HOURS": {
@@ -97,18 +97,18 @@
      "verdict": "INSUFFICIENT"
     },
     "WAIT|HOURS": {
-     "n": 4,
-     "mean_edge_pct": 2.767,
-     "success_rate": 1.0,
+     "n": 8,
+     "mean_edge_pct": 0.243,
+     "success_rate": 0.5,
      "verdict": "INSUFFICIENT"
     }
    }
   }
  },
  "last_run": {
-  "at": "2026-11-26T11:00:47Z",
-  "added": 8,
-  "scored": 0,
+  "at": "2026-11-26T12:04:58Z",
+  "added": 0,
+  "scored": 8,
   "trend_in_snapshot": true
  }
 }
