@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "updated_at": "2026-11-27T22:02:45Z",
- "chain_head": "68fedbe2a72c1e8c013ea3809c9a85ff9a7c35ea903a4a6241cedfebc5707fbc",
- "lines": 1531,
+ "updated_at": "2026-11-27T23:01:22Z",
+ "chain_head": "88b8c03ab7ed8a0eb0c9d36e1d647fb4b13fda2f120785296a6cca772f758731",
+ "lines": 1532,
  "tracking_since": "2026-11-16T02:48:38Z",
  "days_tracked": 11,
  "recommendations": {
@@ -981,7 +981,7 @@
    "bias": "UNKNOWN",
    "price": 3533.28,
    "recorded_at": "2026-11-22T22:45:50Z",
-   "outcome": "PENDING",
+   "outcome": "NO_DATA",
    "close": null,
    "baseline_up_correct": null
   },
