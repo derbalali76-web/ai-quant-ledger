@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-27T11:00:55Z",
+ "updated_at": "2026-11-27T11:23:37Z",
  "chain_head": "1b231ea6d449d10ce1f2b0756b08b029897213476238fd1cabd4415919a53174",
  "lines": 1482,
  "tracking_since": "2026-11-16T02:48:38Z",
@@ -5695,7 +5695,7 @@
   },
   "ETH": {
    "tracking_since": "2026-11-15T11:04:13Z",
-   "days_tracked": 11,
+   "days_tracked": 12,
    "recommendations": {
     "completed": 0,
     "wins": 0,
