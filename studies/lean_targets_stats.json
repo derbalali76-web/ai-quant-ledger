@@ -1,12 +1,22 @@
 {
  "version": "lean-targets-0.1",
  "statements": 22,
- "settled": 0,
- "by_horizon_direction": {},
- "by_asset_horizon_direction": {},
+ "settled": 1,
+ "by_horizon_direction": {
+  "HOURS|UP": {
+   "n": 1,
+   "verdict": "INSUFFICIENT"
+  }
+ },
+ "by_asset_horizon_direction": {
+  "ETH|HOURS|UP": {
+   "n": 1,
+   "verdict": "INSUFFICIENT"
+  }
+ },
  "last_run": {
-  "at": "2026-11-27T05:00:48Z",
+  "at": "2026-11-27T06:00:43Z",
   "added": 0,
-  "settled": 0
+  "settled": 1
  }
 }
