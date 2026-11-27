@@ -1,5 +1,5 @@
 {
- "version": "beginner-ideas-0.3",
+ "version": "beginner-ideas-0.4",
  "ideas": 48,
  "scored": 24,
  "scored_current_version": 0,
@@ -106,7 +106,7 @@
   }
  },
  "last_run": {
-  "at": "2026-11-27T08:02:11Z",
+  "at": "2026-11-27T09:02:14Z",
   "added": 0,
   "scored": 0,
   "trend_in_snapshot": true
