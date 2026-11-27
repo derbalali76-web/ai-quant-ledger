@@ -1,33 +1,33 @@
 {
- "updated_at": "2026-11-27T09:00:22Z",
+ "updated_at": "2026-11-27T10:00:19Z",
  "observed_since": "2026-11-24T08:00:19Z",
- "restarts": 12,
+ "restarts": 13,
  "restarts_per_day": {
   "2026-11-24": 1,
   "2026-11-25": 2,
   "2026-11-26": 8,
-  "2026-11-27": 1
+  "2026-11-27": 2
  },
  "down_events": 0,
  "memory_alerts": 4,
  "last": {
   "data": {
    "app_version": "0.3.0",
-   "id": "9975df0a76bd",
+   "id": "2ce43014ad39",
    "latency_s": 0.2,
    "memory_mb": {
-    "peak": 321.8,
-    "rss": 284.3
+    "peak": 315.3,
+    "rss": 245.3
    },
-   "previous": "9ef0fe002058",
-   "started_at": "2026-11-27T08:55:00.474376+00:00",
-   "uptime_s": 322
+   "previous": "9975df0a76bd",
+   "started_at": "2026-11-27T09:53:38.990146+00:00",
+   "uptime_s": 401
   },
-  "hash": "4b2f8f3e3c16c1c4979c2a129c8409129341eb8424e46cb6702c9e244876bf62",
+  "hash": "935f805c235d1f85fbf04c14ca686b369dfc4e9a628f98dd96a1887f04a32953",
   "kind": "BOOT",
-  "prev": "300b581a7d0b510b2ca52ae08ac9ee3a822ec03f1871f80a85e1eb79b7ad001b",
-  "recorded_at": "2026-11-27T09:00:22Z",
-  "seq": 17
+  "prev": "4b2f8f3e3c16c1c4979c2a129c8409129341eb8424e46cb6702c9e244876bf62",
+  "recorded_at": "2026-11-27T10:00:19Z",
+  "seq": 18
  },
  "chain_ok": true
 }
