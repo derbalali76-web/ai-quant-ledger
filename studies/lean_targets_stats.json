@@ -1,9 +1,13 @@
 {
  "version": "lean-targets-0.1",
  "statements": 22,
- "settled": 2,
+ "settled": 4,
  "by_horizon_direction": {
   "HOURS|UP": {
+   "n": 2,
+   "verdict": "INSUFFICIENT"
+  },
+  "MONTH|DOWN": {
    "n": 2,
    "verdict": "INSUFFICIENT"
   }
@@ -13,14 +17,18 @@
    "n": 1,
    "verdict": "INSUFFICIENT"
   },
+  "BTC|MONTH|DOWN": {
+   "n": 2,
+   "verdict": "INSUFFICIENT"
+  },
   "ETH|HOURS|UP": {
    "n": 1,
    "verdict": "INSUFFICIENT"
   }
  },
  "last_run": {
-  "at": "2026-11-27T15:00:41Z",
+  "at": "2026-11-27T16:02:59Z",
   "added": 0,
-  "settled": 0
+  "settled": 2
  }
 }
