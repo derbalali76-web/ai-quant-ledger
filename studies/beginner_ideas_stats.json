@@ -1,10 +1,60 @@
 {
  "version": "beginner-ideas-0.4",
  "ideas": 62,
- "scored": 32,
- "scored_current_version": 0,
- "by_kind": {},
- "by_kind_horizon": {},
+ "scored": 40,
+ "scored_current_version": 8,
+ "by_kind": {
+  "BUY_NOW": {
+   "n": 2,
+   "mean_edge_pct": -2.888,
+   "success_rate": 0.0,
+   "verdict": "INSUFFICIENT"
+  },
+  "HOLD_SELL_ABOVE": {
+   "n": 3,
+   "mean_edge_pct": -3.141,
+   "success_rate": 0.0,
+   "verdict": "INSUFFICIENT"
+  },
+  "SELL_REBUY": {
+   "n": 1,
+   "mean_edge_pct": 3.276,
+   "success_rate": 1.0,
+   "verdict": "INSUFFICIENT"
+  },
+  "WAIT_DIP": {
+   "n": 2,
+   "mean_edge_pct": 4.034,
+   "success_rate": 1.0,
+   "verdict": "INSUFFICIENT"
+  }
+ },
+ "by_kind_horizon": {
+  "BUY_NOW|HOURS": {
+   "n": 2,
+   "mean_edge_pct": -2.888,
+   "success_rate": 0.0,
+   "verdict": "INSUFFICIENT"
+  },
+  "HOLD_SELL_ABOVE|HOURS": {
+   "n": 3,
+   "mean_edge_pct": -3.141,
+   "success_rate": 0.0,
+   "verdict": "INSUFFICIENT"
+  },
+  "SELL_REBUY|HOURS": {
+   "n": 1,
+   "mean_edge_pct": 3.276,
+   "success_rate": 1.0,
+   "verdict": "INSUFFICIENT"
+  },
+  "WAIT_DIP|HOURS": {
+   "n": 2,
+   "mean_edge_pct": 4.034,
+   "success_rate": 1.0,
+   "verdict": "INSUFFICIENT"
+  }
+ },
  "by_version": {
   "beginner-ideas-0.1": {
    "scored": 8,
@@ -146,12 +196,75 @@
      "verdict": "INSUFFICIENT"
     }
    }
+  },
+  "beginner-ideas-0.4": {
+   "scored": 8,
+   "by_kind": {
+    "BUY_NOW": {
+     "n": 2,
+     "mean_edge_pct": -2.888,
+     "success_rate": 0.0,
+     "verdict": "INSUFFICIENT"
+    },
+    "HOLD_SELL_ABOVE": {
+     "n": 3,
+     "mean_edge_pct": -3.141,
+     "success_rate": 0.0,
+     "verdict": "INSUFFICIENT"
+    },
+    "SELL_REBUY": {
+     "n": 1,
+     "mean_edge_pct": 3.276,
+     "success_rate": 1.0,
+     "verdict": "INSUFFICIENT"
+    },
+    "WAIT_DIP": {
+     "n": 2,
+     "mean_edge_pct": 4.034,
+     "success_rate": 1.0,
+     "verdict": "INSUFFICIENT"
+    }
+   },
+   "by_kind_horizon": {
+    "BUY_NOW|HOURS": {
+     "n": 2,
+     "mean_edge_pct": -2.888,
+     "success_rate": 0.0,
+     "verdict": "INSUFFICIENT"
+    },
+    "HOLD_SELL_ABOVE|HOURS": {
+     "n": 3,
+     "mean_edge_pct": -3.141,
+     "success_rate": 0.0,
+     "verdict": "INSUFFICIENT"
+    },
+    "SELL_REBUY|HOURS": {
+     "n": 1,
+     "mean_edge_pct": 3.276,
+     "success_rate": 1.0,
+     "verdict": "INSUFFICIENT"
+    },
+    "WAIT_DIP|HOURS": {
+     "n": 2,
+     "mean_edge_pct": 4.034,
+     "success_rate": 1.0,
+     "verdict": "INSUFFICIENT"
+    }
+   }
   }
  },
+ "sell_rebuy_rose_no_return": 1.0,
+ "buyers_filter": {
+  "n": 1,
+  "shown_mean_edge_pct": 4.047,
+  "shadow_mean_edge_pct": -4.224,
+  "filter_better_share": 1.0,
+  "verdict": "INSUFFICIENT"
+ },
  "last_run": {
-  "at": "2026-11-28T12:00:38Z",
-  "added": 6,
-  "scored": 0,
+  "at": "2026-11-28T12:18:40Z",
+  "added": 0,
+  "scored": 8,
   "trend_in_snapshot": true
  }
 }
