@@ -1,0 +1,180 @@
+{
+ "version": "forecast-0.1",
+ "forecasts": 9,
+ "settled": 0,
+ "horizons": {
+  "1h": {
+   "all": {
+    "n": 0
+   },
+   "non_overlapping": {
+    "n": 0
+   },
+   "t_stat": 0.0,
+   "verdict": "INSUFFICIENT",
+   "calibration": [
+    {
+     "p_from": 0,
+     "p_to": 0.4,
+     "n": 0,
+     "rose": null
+    },
+    {
+     "p_from": 0.4,
+     "p_to": 0.47,
+     "n": 0,
+     "rose": null
+    },
+    {
+     "p_from": 0.47,
+     "p_to": 0.53,
+     "n": 0,
+     "rose": null
+    },
+    {
+     "p_from": 0.53,
+     "p_to": 0.6,
+     "n": 0,
+     "rose": null
+    },
+    {
+     "p_from": 0.6,
+     "p_to": 1.0,
+     "n": 0,
+     "rose": null
+    }
+   ],
+   "by_asset": {
+    "XAU": {
+     "n": 0
+    },
+    "BTC": {
+     "n": 0
+    },
+    "ETH": {
+     "n": 0
+    },
+    "SOL": {
+     "n": 0
+    }
+   }
+  },
+  "4h": {
+   "all": {
+    "n": 0
+   },
+   "non_overlapping": {
+    "n": 0
+   },
+   "t_stat": 0.0,
+   "verdict": "INSUFFICIENT",
+   "calibration": [
+    {
+     "p_from": 0,
+     "p_to": 0.4,
+     "n": 0,
+     "rose": null
+    },
+    {
+     "p_from": 0.4,
+     "p_to": 0.47,
+     "n": 0,
+     "rose": null
+    },
+    {
+     "p_from": 0.47,
+     "p_to": 0.53,
+     "n": 0,
+     "rose": null
+    },
+    {
+     "p_from": 0.53,
+     "p_to": 0.6,
+     "n": 0,
+     "rose": null
+    },
+    {
+     "p_from": 0.6,
+     "p_to": 1.0,
+     "n": 0,
+     "rose": null
+    }
+   ],
+   "by_asset": {
+    "XAU": {
+     "n": 0
+    },
+    "BTC": {
+     "n": 0
+    },
+    "ETH": {
+     "n": 0
+    },
+    "SOL": {
+     "n": 0
+    }
+   }
+  },
+  "24h": {
+   "all": {
+    "n": 0
+   },
+   "non_overlapping": {
+    "n": 0
+   },
+   "t_stat": 0.0,
+   "verdict": "INSUFFICIENT",
+   "calibration": [
+    {
+     "p_from": 0,
+     "p_to": 0.4,
+     "n": 0,
+     "rose": null
+    },
+    {
+     "p_from": 0.4,
+     "p_to": 0.47,
+     "n": 0,
+     "rose": null
+    },
+    {
+     "p_from": 0.47,
+     "p_to": 0.53,
+     "n": 0,
+     "rose": null
+    },
+    {
+     "p_from": 0.53,
+     "p_to": 0.6,
+     "n": 0,
+     "rose": null
+    },
+    {
+     "p_from": 0.6,
+     "p_to": 1.0,
+     "n": 0,
+     "rose": null
+    }
+   ],
+   "by_asset": {
+    "XAU": {
+     "n": 0
+    },
+    "BTC": {
+     "n": 0
+    },
+    "ETH": {
+     "n": 0
+    },
+    "SOL": {
+     "n": 0
+    }
+   }
+  }
+ },
+ "last_run": {
+  "at": "2026-11-28T09:46:37Z",
+  "added": 9,
+  "settled": 0
+ }
+}
