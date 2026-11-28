@@ -1,6 +1,36 @@
 {
  "version": "advice-units-0.1",
  "min_n": 20,
- "n": 0,
- "by_asset": {}
+ "n": 1,
+ "independent_weeks": 1,
+ "pre_emptive": {
+  "mean_gain_pct": 4.3184,
+  "beat_hold_rate": 1.0,
+  "no_rebuy": 0,
+  "rose_no_return": 0,
+  "protection_exits": 0
+ },
+ "after_break": {
+  "mean_gain_pct": 0.3758,
+  "beat_hold_rate": 1.0
+ },
+ "by_asset": {
+  "SOL": {
+   "version": "advice-units-0.1",
+   "min_n": 20,
+   "n": 1,
+   "independent_weeks": 1,
+   "pre_emptive": {
+    "mean_gain_pct": 4.3184,
+    "beat_hold_rate": 1.0,
+    "no_rebuy": 0,
+    "rose_no_return": 0,
+    "protection_exits": 0
+   },
+   "after_break": {
+    "mean_gain_pct": 0.3758,
+    "beat_hold_rate": 1.0
+   }
+  }
+ }
 }
