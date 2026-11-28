@@ -1,6 +1,6 @@
 {
  "version": "lean-targets-0.1",
- "statements": 28,
+ "statements": 29,
  "settled": 4,
  "by_horizon_direction": {
   "HOURS|UP": {
@@ -27,8 +27,8 @@
   }
  },
  "last_run": {
-  "at": "2026-11-28T05:00:39Z",
-  "added": 0,
+  "at": "2026-11-28T06:00:46Z",
+  "added": 1,
   "settled": 0
  }
 }
