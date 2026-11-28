@@ -1,6 +1,6 @@
 {
  "schema": "decision-state-2",
- "updated_at": "2026-11-28T06:00:46Z",
+ "updated_at": "2026-11-28T07:00:44Z",
  "assets": {
   "XAU": {
    "asset": "XAU",
@@ -8,52 +8,23 @@
     "value": 3654.414,
     "at": "2026-11-27T22:00:00Z"
    },
-   "scenario": {
-    "source": "advice-0.1.0",
-    "recorded_at": "2026-11-27T00:01:09Z",
-    "hours": {
-     "down": [
-      3553.0,
-      3538.41
-     ],
-     "likely": "UP",
-     "up": [
-      3576.24,
-      3589.1
-     ]
-    },
-    "week": {
-     "down": [
-      3504.02,
-      null
-     ],
-     "likely": "NONE",
-     "up": [
-      3866.02,
-      4123.36
-     ]
-    },
-    "stage": "FORECAST"
-   },
-   "signal": {
-    "id": "3c3858c67108",
-    "kind": "UP_MOVE"
-   },
+   "scenario": null,
+   "signal": null,
    "actions": {
     "holder": {
      "action": "HOLD",
-     "stage": "BLOCKED",
+     "stage": "NONE",
      "level": null,
      "rebuy_at": null,
-     "reason": "stale_or_missing_price"
+     "reason": "no_signal"
     },
     "cash": {
      "action": "WAIT",
-     "stage": "BLOCKED",
+     "stage": "NONE",
      "level": null,
-     "reason": "stale_or_missing_price"
+     "reason": "no_signal"
     },
-    "signal_id": "3c3858c67108"
+    "signal_id": null
    },
    "view": {
     "holder": {
@@ -61,7 +32,8 @@
      "signal_id": null,
      "plan": null,
      "why": [
-      "blocked:stale_or_missing_price"
+      "blocked:stale_or_missing_price",
+      "blocked:stale_advice"
      ]
     },
     "cash": {
@@ -69,7 +41,8 @@
      "signal_id": null,
      "plan": null,
      "why": [
-      "blocked:stale_or_missing_price"
+      "blocked:stale_or_missing_price",
+      "blocked:stale_advice"
      ]
     }
    },
@@ -78,16 +51,17 @@
    "gates": {
     "ok": false,
     "reasons": [
-     "stale_or_missing_price"
+     "stale_or_missing_price",
+     "stale_advice"
     ]
    },
-   "signature": "9b1cb1a2724d162e"
+   "signature": "fec609f2ecaaa6f6"
   },
   "BTC": {
    "asset": "BTC",
    "price": {
-    "value": 59738.41,
-    "at": "2026-11-28T06:00:00Z"
+    "value": 59749.23,
+    "at": "2026-11-28T07:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
@@ -180,8 +154,8 @@
   "ETH": {
    "asset": "ETH",
    "price": {
-    "value": 1656.14,
-    "at": "2026-11-28T06:00:00Z"
+    "value": 1657.53,
+    "at": "2026-11-28T07:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
@@ -261,8 +235,8 @@
   "SOL": {
    "asset": "SOL",
    "price": {
-    "value": 71.21,
-    "at": "2026-11-28T06:00:00Z"
+    "value": 71.44,
+    "at": "2026-11-28T07:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
@@ -342,8 +316,8 @@
   "PAXG": {
    "asset": "PAXG",
    "price": {
-    "value": 3648.83,
-    "at": "2026-11-28T06:00:00Z"
+    "value": 3650.04,
+    "at": "2026-11-28T07:00:00Z"
    },
    "scenario": null,
    "signal": null,
