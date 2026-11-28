@@ -1,6 +1,6 @@
 {
  "schema": "decision-state-2",
- "updated_at": "2026-11-28T00:01:12Z",
+ "updated_at": "2026-11-28T01:00:42Z",
  "assets": {
   "XAU": {
    "asset": "XAU",
@@ -42,61 +42,52 @@
    "actions": {
     "holder": {
      "action": "HOLD",
-     "stage": "SCENARIO",
-     "level": 3589.1,
+     "stage": "BLOCKED",
+     "level": null,
      "rebuy_at": null,
-     "advice": "KEEP_SELL_HIGHER",
-     "reason": "advice-0.1.0"
+     "reason": "stale_or_missing_price"
     },
     "cash": {
-     "action": "BUY",
-     "stage": "SCENARIO",
+     "action": "WAIT",
+     "stage": "BLOCKED",
      "level": null,
-     "advice": "BUY_NOW",
-     "reason": "advice-0.1.0"
+     "reason": "stale_or_missing_price"
     },
     "signal_id": "3c3858c67108"
    },
    "view": {
     "holder": {
      "verdict": "WAIT",
-     "signal_id": "3c3858c67108",
+     "signal_id": null,
      "plan": null,
      "why": [
-      "not_yet_qualified"
+      "blocked:stale_or_missing_price"
      ]
     },
     "cash": {
      "verdict": "WAIT",
-     "signal_id": "3c3858c67108",
+     "signal_id": null,
      "plan": null,
      "why": [
-      "not_yet_qualified"
+      "blocked:stale_or_missing_price"
      ]
     }
    },
-   "radar": [
-    {
-     "id": "3c3858c67108",
-     "source": "advice-0.1.0",
-     "state": "FORMING",
-     "holder": "HOLD",
-     "cash": "BUY",
-     "level": null
-    }
-   ],
+   "radar": [],
    "opportunity": null,
    "gates": {
-    "ok": true,
-    "reasons": []
+    "ok": false,
+    "reasons": [
+     "stale_or_missing_price"
+    ]
    },
-   "signature": "4683f3dad3f4290d"
+   "signature": "9b1cb1a2724d162e"
   },
   "BTC": {
    "asset": "BTC",
    "price": {
-    "value": 59923.1,
-    "at": "2026-11-28T00:00:00Z"
+    "value": 59897.25,
+    "at": "2026-11-28T01:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
@@ -189,8 +180,8 @@
   "ETH": {
    "asset": "ETH",
    "price": {
-    "value": 1662.48,
-    "at": "2026-11-28T00:00:00Z"
+    "value": 1661.68,
+    "at": "2026-11-28T01:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
@@ -270,8 +261,8 @@
   "SOL": {
    "asset": "SOL",
    "price": {
-    "value": 71.66,
-    "at": "2026-11-28T00:00:00Z"
+    "value": 71.71,
+    "at": "2026-11-28T01:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
@@ -351,8 +342,8 @@
   "PAXG": {
    "asset": "PAXG",
    "price": {
-    "value": 3654.18,
-    "at": "2026-11-28T00:00:00Z"
+    "value": 3653.39,
+    "at": "2026-11-28T01:00:00Z"
    },
    "scenario": null,
    "signal": null,

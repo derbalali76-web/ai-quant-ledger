@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "updated_at": "2026-11-28T00:01:12Z",
- "chain_head": "6b54bdf6329ef46f88ae561f6487712f86a26b58ed2539261bed8bb35f4f847e",
- "lines": 1570,
+ "updated_at": "2026-11-28T01:00:42Z",
+ "chain_head": "dbb11092c6ce431d96ae4b33f84c7ff3f17416716503d71bf2fbe2c7a406ffde",
+ "lines": 1571,
  "tracking_since": "2026-11-16T02:48:38Z",
  "days_tracked": 11,
  "recommendations": {
@@ -794,9 +794,9 @@
    "bias": "SIDEWAYS",
    "price": 3559.13,
    "recorded_at": "2026-11-27T01:00:41Z",
-   "outcome": "PENDING",
-   "close": null,
-   "baseline_up_correct": null
+   "outcome": "NOT_SCORED",
+   "close": 3654.398,
+   "baseline_up_correct": true
   },
   {
    "seq": 1425,
