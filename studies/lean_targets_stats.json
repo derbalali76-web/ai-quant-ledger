@@ -1,14 +1,18 @@
 {
  "version": "lean-targets-0.1",
  "statements": 30,
- "settled": 4,
+ "settled": 6,
  "by_horizon_direction": {
   "HOURS|UP": {
    "n": 2,
    "verdict": "INSUFFICIENT"
   },
   "MONTH|DOWN": {
-   "n": 2,
+   "n": 3,
+   "verdict": "INSUFFICIENT"
+  },
+  "WEEK|DOWN": {
+   "n": 1,
    "verdict": "INSUFFICIENT"
   }
  },
@@ -24,11 +28,19 @@
   "ETH|HOURS|UP": {
    "n": 1,
    "verdict": "INSUFFICIENT"
+  },
+  "SOL|MONTH|DOWN": {
+   "n": 1,
+   "verdict": "INSUFFICIENT"
+  },
+  "SOL|WEEK|DOWN": {
+   "n": 1,
+   "verdict": "INSUFFICIENT"
   }
  },
  "last_run": {
-  "at": "2026-11-28T10:00:43Z",
+  "at": "2026-11-28T11:00:44Z",
   "added": 0,
-  "settled": 0
+  "settled": 2
  }
 }

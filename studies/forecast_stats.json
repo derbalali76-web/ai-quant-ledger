@@ -1,26 +1,26 @@
 {
  "version": "forecast-0.1",
- "forecasts": 18,
- "settled": 3,
+ "forecasts": 27,
+ "settled": 6,
  "horizons": {
   "1h": {
    "all": {
-    "n": 3,
-    "brier_learner": 0.27192,
-    "brier_baseline": 0.30449,
-    "skill": 0.107,
-    "accuracy": 0.0,
-    "rose_share": 1.0
+    "n": 6,
+    "brier_learner": 0.24911,
+    "brier_baseline": 0.25343,
+    "skill": 0.0171,
+    "accuracy": 0.3333,
+    "rose_share": 0.5
    },
    "non_overlapping": {
-    "n": 3,
-    "brier_learner": 0.27192,
-    "brier_baseline": 0.30449,
-    "skill": 0.107,
-    "accuracy": 0.0,
-    "rose_share": 1.0
+    "n": 6,
+    "brier_learner": 0.24911,
+    "brier_baseline": 0.25343,
+    "skill": 0.0171,
+    "accuracy": 0.3333,
+    "rose_share": 0.5
    },
-   "t_stat": 2.14,
+   "t_stat": 0.28,
    "verdict": "INSUFFICIENT",
    "calibration": [
     {
@@ -32,14 +32,14 @@
     {
      "p_from": 0.4,
      "p_to": 0.47,
-     "n": 1,
-     "rose": 1.0
+     "n": 3,
+     "rose": 0.333
     },
     {
      "p_from": 0.47,
      "p_to": 0.53,
-     "n": 2,
-     "rose": 1.0
+     "n": 3,
+     "rose": 0.667
     },
     {
      "p_from": 0.53,
@@ -59,28 +59,28 @@
      "n": 0
     },
     "BTC": {
-     "n": 1,
-     "brier_learner": 0.27731,
-     "brier_baseline": 0.32206,
-     "skill": 0.1389,
-     "accuracy": 0.0,
-     "rose_share": 1.0
+     "n": 2,
+     "brier_learner": 0.2445,
+     "brier_baseline": 0.25516,
+     "skill": 0.0418,
+     "accuracy": 0.5,
+     "rose_share": 0.5
     },
     "ETH": {
-     "n": 1,
-     "brier_learner": 0.2519,
-     "brier_baseline": 0.3025,
-     "skill": 0.1673,
+     "n": 2,
+     "brier_learner": 0.2514,
+     "brier_baseline": 0.25313,
+     "skill": 0.0068,
      "accuracy": 0.0,
-     "rose_share": 1.0
+     "rose_share": 0.5
     },
     "SOL": {
-     "n": 1,
-     "brier_learner": 0.28655,
-     "brier_baseline": 0.28891,
-     "skill": 0.0082,
-     "accuracy": 0.0,
-     "rose_share": 1.0
+     "n": 2,
+     "brier_learner": 0.25143,
+     "brier_baseline": 0.25201,
+     "skill": 0.0023,
+     "accuracy": 0.5,
+     "rose_share": 0.5
     }
    }
   },
@@ -198,7 +198,7 @@
   }
  },
  "last_run": {
-  "at": "2026-11-28T10:00:43Z",
+  "at": "2026-11-28T11:00:44Z",
   "added": 9,
   "settled": 3
  }
