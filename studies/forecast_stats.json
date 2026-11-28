@@ -1,16 +1,26 @@
 {
  "version": "forecast-0.1",
- "forecasts": 9,
- "settled": 0,
+ "forecasts": 18,
+ "settled": 3,
  "horizons": {
   "1h": {
    "all": {
-    "n": 0
+    "n": 3,
+    "brier_learner": 0.27192,
+    "brier_baseline": 0.30449,
+    "skill": 0.107,
+    "accuracy": 0.0,
+    "rose_share": 1.0
    },
    "non_overlapping": {
-    "n": 0
+    "n": 3,
+    "brier_learner": 0.27192,
+    "brier_baseline": 0.30449,
+    "skill": 0.107,
+    "accuracy": 0.0,
+    "rose_share": 1.0
    },
-   "t_stat": 0.0,
+   "t_stat": 2.14,
    "verdict": "INSUFFICIENT",
    "calibration": [
     {
@@ -22,14 +32,14 @@
     {
      "p_from": 0.4,
      "p_to": 0.47,
-     "n": 0,
-     "rose": null
+     "n": 1,
+     "rose": 1.0
     },
     {
      "p_from": 0.47,
      "p_to": 0.53,
-     "n": 0,
-     "rose": null
+     "n": 2,
+     "rose": 1.0
     },
     {
      "p_from": 0.53,
@@ -49,13 +59,28 @@
      "n": 0
     },
     "BTC": {
-     "n": 0
+     "n": 1,
+     "brier_learner": 0.27731,
+     "brier_baseline": 0.32206,
+     "skill": 0.1389,
+     "accuracy": 0.0,
+     "rose_share": 1.0
     },
     "ETH": {
-     "n": 0
+     "n": 1,
+     "brier_learner": 0.2519,
+     "brier_baseline": 0.3025,
+     "skill": 0.1673,
+     "accuracy": 0.0,
+     "rose_share": 1.0
     },
     "SOL": {
-     "n": 0
+     "n": 1,
+     "brier_learner": 0.28655,
+     "brier_baseline": 0.28891,
+     "skill": 0.0082,
+     "accuracy": 0.0,
+     "rose_share": 1.0
     }
    }
   },
@@ -173,8 +198,8 @@
   }
  },
  "last_run": {
-  "at": "2026-11-28T09:46:37Z",
+  "at": "2026-11-28T10:00:43Z",
   "added": 9,
-  "settled": 0
+  "settled": 3
  }
 }
