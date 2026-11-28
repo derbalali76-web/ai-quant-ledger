@@ -1,6 +1,6 @@
 {
  "schema": "decision-state-2",
- "updated_at": "2026-11-28T03:57:32Z",
+ "updated_at": "2026-11-28T04:01:07Z",
  "assets": {
   "XAU": {
    "asset": "XAU",
@@ -86,8 +86,8 @@
   "BTC": {
    "asset": "BTC",
    "price": {
-    "value": 59968.19,
-    "at": "2026-11-28T03:00:00Z"
+    "value": 60029.2,
+    "at": "2026-11-28T04:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
@@ -180,8 +180,8 @@
   "ETH": {
    "asset": "ETH",
    "price": {
-    "value": 1664.55,
-    "at": "2026-11-28T03:00:00Z"
+    "value": 1665.99,
+    "at": "2026-11-28T04:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
@@ -262,7 +262,7 @@
    "asset": "SOL",
    "price": {
     "value": 71.72,
-    "at": "2026-11-28T03:00:00Z"
+    "at": "2026-11-28T04:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
@@ -342,8 +342,8 @@
   "PAXG": {
    "asset": "PAXG",
    "price": {
-    "value": 3656.87,
-    "at": "2026-11-28T03:00:00Z"
+    "value": 3654.42,
+    "at": "2026-11-28T04:00:00Z"
    },
    "scenario": null,
    "signal": null,
