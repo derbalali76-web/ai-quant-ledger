@@ -1,6 +1,6 @@
 {
  "schema": "decision-state-2",
- "updated_at": "2026-11-27T23:01:22Z",
+ "updated_at": "2026-11-28T00:01:12Z",
  "assets": {
   "XAU": {
    "asset": "XAU",
@@ -95,27 +95,27 @@
   "BTC": {
    "asset": "BTC",
    "price": {
-    "value": 59737.25,
-    "at": "2026-11-27T23:00:00Z"
+    "value": 59923.1,
+    "at": "2026-11-28T00:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
-    "recorded_at": "2026-11-27T00:01:09Z",
+    "recorded_at": "2026-11-28T00:01:12Z",
     "hours": {
      "down": [
-      59166.22,
-      57798.55
+      57798.55,
+      57320.65
      ],
-     "likely": "NONE",
+     "likely": "BETWEEN",
      "up": [
-      66105.55,
-      66428.64
+      62722.4,
+      66105.55
      ]
     },
     "week": {
      "down": [
       58348.7,
-      55130.0
+      57300.38
      ],
      "likely": "NONE",
      "up": [
@@ -126,7 +126,7 @@
     "stage": "FORECAST"
    },
    "signal": {
-    "id": "667332f47e24",
+    "id": "5e2fe041a1fd",
     "kind": "NO_EDGE"
    },
    "actions": {
@@ -145,7 +145,7 @@
      "advice": "NOTHING",
      "reason": "advice-0.1.0"
     },
-    "signal_id": "667332f47e24"
+    "signal_id": "5e2fe041a1fd"
    },
    "view": {
     "holder": {
@@ -184,32 +184,32 @@
     "ok": true,
     "reasons": []
    },
-   "signature": "c2d92da11f62093c"
+   "signature": "e105f513373d5baf"
   },
   "ETH": {
    "asset": "ETH",
    "price": {
-    "value": 1656.73,
-    "at": "2026-11-27T23:00:00Z"
+    "value": 1662.48,
+    "at": "2026-11-28T00:00:00Z"
    },
    "scenario": {
     "source": "advice-0.1.0",
-    "recorded_at": "2026-11-27T00:01:09Z",
+    "recorded_at": "2026-11-28T00:01:12Z",
     "hours": {
      "down": [
-      1664.95,
-      1633.13
+      1632.7,
+      1617.84
      ],
-     "likely": "DOWN",
+     "likely": "NONE",
      "up": [
-      1743.1,
-      1759.18
+      1840.6,
+      1917.44
      ]
     },
     "week": {
      "down": [
-      1538.0,
-      1518.56
+      1608.86,
+      1538.0
      ],
      "likely": "NONE",
      "up": [
@@ -220,97 +220,7 @@
     "stage": "FORECAST"
    },
    "signal": {
-    "id": "f4c6ff78195a",
-    "kind": "DOWN_MOVE"
-   },
-   "actions": {
-    "holder": {
-     "action": "SELL_OWNED",
-     "stage": "SCENARIO",
-     "level": 1743.1,
-     "rebuy_at": 1633.13,
-     "advice": "SELL_NOW",
-     "reason": "advice-0.1.0"
-    },
-    "cash": {
-     "action": "WAIT",
-     "stage": "SCENARIO",
-     "level": 1633.13,
-     "advice": "WAIT_BUY_LOWER",
-     "reason": "advice-0.1.0"
-    },
-    "signal_id": "f4c6ff78195a"
-   },
-   "view": {
-    "holder": {
-     "verdict": "WAIT",
-     "signal_id": "f4c6ff78195a",
-     "plan": null,
-     "why": [
-      "not_yet_qualified"
-     ]
-    },
-    "cash": {
-     "verdict": "WAIT",
-     "signal_id": "f4c6ff78195a",
-     "plan": null,
-     "why": [
-      "not_yet_qualified"
-     ]
-    }
-   },
-   "radar": [
-    {
-     "id": "f4c6ff78195a",
-     "source": "advice-0.1.0",
-     "state": "FORMING",
-     "holder": "SELL_OWNED",
-     "cash": "WAIT",
-     "level": 1633.13
-    }
-   ],
-   "opportunity": null,
-   "gates": {
-    "ok": true,
-    "reasons": []
-   },
-   "signature": "773db1a9e6793e80"
-  },
-  "SOL": {
-   "asset": "SOL",
-   "price": {
-    "value": 71.53,
-    "at": "2026-11-27T23:00:00Z"
-   },
-   "scenario": {
-    "source": "advice-0.1.0",
-    "recorded_at": "2026-11-27T00:01:09Z",
-    "hours": {
-     "down": [
-      68.52,
-      67.27
-     ],
-     "likely": "NONE",
-     "up": [
-      74.91,
-      76.8
-     ]
-    },
-    "week": {
-     "down": [
-      67.41,
-      64.87
-     ],
-     "likely": "NONE",
-     "up": [
-      75.78,
-      78.48
-     ]
-    },
-    "stage": "FORECAST"
-   },
-   "signal": {
-    "id": "5cd01f1696a2",
+    "id": "6401208605da",
     "kind": "NO_EDGE"
    },
    "actions": {
@@ -329,7 +239,7 @@
      "advice": "NOTHING",
      "reason": "advice-0.1.0"
     },
-    "signal_id": "5cd01f1696a2"
+    "signal_id": "6401208605da"
    },
    "view": {
     "holder": {
@@ -355,13 +265,94 @@
     "ok": true,
     "reasons": []
    },
-   "signature": "77bde45837b73784"
+   "signature": "8de0dbb8012558ce"
+  },
+  "SOL": {
+   "asset": "SOL",
+   "price": {
+    "value": 71.66,
+    "at": "2026-11-28T00:00:00Z"
+   },
+   "scenario": {
+    "source": "advice-0.1.0",
+    "recorded_at": "2026-11-28T00:01:12Z",
+    "hours": {
+     "down": [
+      68.52,
+      67.31
+     ],
+     "likely": "NONE",
+     "up": [
+      76.8,
+      77.89
+     ]
+    },
+    "week": {
+     "down": [
+      70.58,
+      66.04
+     ],
+     "likely": "NONE",
+     "up": [
+      75.78,
+      78.48
+     ]
+    },
+    "stage": "FORECAST"
+   },
+   "signal": {
+    "id": "a42d5eaac208",
+    "kind": "NO_EDGE"
+   },
+   "actions": {
+    "holder": {
+     "action": "HOLD",
+     "stage": "NONE",
+     "level": null,
+     "rebuy_at": null,
+     "advice": "NOTHING",
+     "reason": "advice-0.1.0"
+    },
+    "cash": {
+     "action": "WAIT",
+     "stage": "NONE",
+     "level": null,
+     "advice": "NOTHING",
+     "reason": "advice-0.1.0"
+    },
+    "signal_id": "a42d5eaac208"
+   },
+   "view": {
+    "holder": {
+     "verdict": "WAIT",
+     "signal_id": null,
+     "plan": null,
+     "why": [
+      "no_edge"
+     ]
+    },
+    "cash": {
+     "verdict": "WAIT",
+     "signal_id": null,
+     "plan": null,
+     "why": [
+      "no_edge"
+     ]
+    }
+   },
+   "radar": [],
+   "opportunity": null,
+   "gates": {
+    "ok": true,
+    "reasons": []
+   },
+   "signature": "9daa218b5590b178"
   },
   "PAXG": {
    "asset": "PAXG",
    "price": {
-    "value": 3652.02,
-    "at": "2026-11-27T23:00:00Z"
+    "value": 3654.18,
+    "at": "2026-11-28T00:00:00Z"
    },
    "scenario": null,
    "signal": null,
